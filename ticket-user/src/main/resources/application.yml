@@ -1,0 +1,90 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: ticket-user
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  
+  # Nacos 配置导入
+  config:
+    import: optional:nacos:ticket-user.yaml
+  
+  # Nacos 服务发现配置
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        enabled: true
+        namespace: ""
+        group: DEFAULT_GROUP
+        register-enabled: true
+        ip: 127.0.0.1
+        prefer-ip-address: false
+      config:
+        enabled: true
+        import-check:
+          enabled: false
+  
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:ticket_user_db}?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:123456}
+    hikari:
+      maximum-pool-size: ${DB_MAX_POOL_SIZE:20}
+      minimum-idle: ${DB_MIN_IDLE:5}
+      connection-timeout: ${DB_CONNECTION_TIMEOUT:30000}
+      idle-timeout: ${DB_IDLE_TIMEOUT:600000}
+      max-lifetime: ${DB_MAX_LIFETIME:1800000}
+      leak-detection-threshold: ${DB_LEAK_DETECTION_THRESHOLD:60000}
+
+  mvc:
+    log-request-details: true
+  
+  # 定时任务配置
+  task:
+    scheduling:
+      enabled: true
+      pool:
+        size: 5
+      thread-name-prefix: user-monitor-
+
+# Spring Boot Actuator配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    tags:
+      application: ${spring.application.name}
+      environment: ${spring.profiles.active}
+
+# 日志配置
+logging:
+  level:
+    com.ticketsystem.user: ${LOG_LEVEL:debug}
+    org.springframework.security: ${LOG_LEVEL:debug}
+    org.springframework.web: ${LOG_LEVEL:info}
+    org.springframework.scheduling: ${LOG_LEVEL:info}
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+  file:
+    name: logs/ticket-user.log
+    max-size: ${LOG_MAX_SIZE:100MB}
+    max-history: ${LOG_MAX_HISTORY:30}

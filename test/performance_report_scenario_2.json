@@ -1,0 +1,41 @@
+{
+  "test_summary": {
+    "timestamp": "2025-09-13T15:16:10.245567",
+    "total_operations": 200
+  },
+  "performance_metrics": {
+    "user_operations": {
+      "total_requests": 50,
+      "successful_requests": 50,
+      "success_rate": 100.0,
+      "avg_response_time": 1333.9076375961304,
+      "median_response_time": 1555.9321641921997,
+      "p95_response_time": 1862.1072888374326,
+      "p99_response_time": 2080.767900943756,
+      "min_response_time": 312.4196529388428,
+      "max_response_time": 2131.991386413574
+    },
+    "order_operations": {
+      "total_requests": 50,
+      "successful_requests": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 290.49553871154785,
+      "median_response_time": 290.90166091918945,
+      "p95_response_time": 362.0988368988037,
+      "p99_response_time": 428.8426208496093,
+      "min_response_time": 95.41940689086914,
+      "max_response_time": 441.41674041748047
+    },
+    "stock_operations": {
+      "total_requests": 100,
+      "successful_requests": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 77.75874137878418,
+      "median_response_time": 59.15272235870361,
+      "p95_response_time": 239.26913738250732,
+      "p99_response_time": 304.4330024719239,
+      "min_response_time": 1.5940666198730469,
+      "max_response_time": 311.5980625152588
+    }
+  }
+}

@@ -1,0 +1,43 @@
+server:
+  port: 8000
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        # 用户服务路由
+        - id: user-service
+          uri: lb://ticket-user
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=1
+
+        # 演出服务路由
+        - id: show-service
+          uri: lb://ticket-show
+          predicates:
+            - Path=/api/show/**, /api/ticket/**, /api/seckill/**, /api/seat/**
+          filters:
+            - StripPrefix=1
+
+        # 订单服务路由
+        - id: order-service
+          uri: lb://ticket-order
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - StripPrefix=1
+
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    com.alibaba.nacos: DEBUG

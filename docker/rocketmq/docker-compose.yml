@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  # RocketMQ NameServer
+  rocketmq-nameserver:
+    image: apache/rocketmq:4.9.4
+    container_name: rocketmq-nameserver
+    ports:
+      - "9876:9876"
+    volumes:
+      - ./nameserver/logs:/opt/logs
+      - ./nameserver/store:/opt/store
+    environment:
+      JAVA_OPT_EXT: "-Duser.home=/opt -Xms512M -Xmx512M -Xmn128m"
+    command: [
+      "sh",
+      "mqnamesrv"
+    ]
+    networks:
+      - rocketmq-network
+    restart: unless-stopped
+
+  # RocketMQ Broker
+  rocketmq-broker:
+    image: apache/rocketmq:4.9.4
+    container_name: rocketmq-broker
+    ports:
+      - "10909:10909"
+      - "10911:10911"
+    volumes:
+      - ./broker/logs:/opt/logs
+      - ./broker/store:/opt/store
+      - ./broker/conf/broker.conf:/opt/rocketmq-4.9.4/conf/broker.conf
+    environment:
+      NAMESRV_ADDR: "rocketmq-nameserver:9876"
+      JAVA_OPT_EXT: "-Duser.home=/opt -Xms1G -Xmx1G -Xmn256m"
+    command: [
+      "sh",
+      "mqbroker",
+      "-c",
+      "/opt/rocketmq-4.9.4/conf/broker.conf"
+    ]
+    depends_on:
+      - rocketmq-nameserver
+    networks:
+      - rocketmq-network
+    restart: unless-stopped
+
+  # RocketMQ Console
+  rocketmq-console:
+    image: styletang/rocketmq-console-ng:latest
+    container_name: rocketmq-console
+    ports:
+      - "8180:8080"
+    environment:
+      JAVA_OPTS: "-Drocketmq.namesrv.addr=rocketmq-nameserver:9876 -Dcom.rocketmq.sendMessageWithVIPChannel=false"
+    depends_on:
+      - rocketmq-nameserver
+      - rocketmq-broker
+    networks:
+      - rocketmq-network
+    restart: unless-stopped
+
+networks:
+  rocketmq-network:
+    driver: bridge
+
+volumes:
+  nameserver-logs:
+  nameserver-store:
+  broker-logs:
+  broker-store:

@@ -1,0 +1,41 @@
+{
+  "test_timestamp": "20250913_141101",
+  "bottlenecks": [
+    {
+      "operation": "user_register",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    },
+    {
+      "operation": "order_create",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    },
+    {
+      "operation": "stock_query",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    },
+    {
+      "operation": "mixed_register",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    }
+  ],
+  "recommendations": [
+    "user_register: 需要提高系统稳定性和错误处理",
+    "order_create: 需要提高系统稳定性和错误处理",
+    "stock_query: 需要提高系统稳定性和错误处理",
+    "mixed_register: 需要提高系统稳定性和错误处理"
+  ],
+  "rocketmq_optimization_targets": [
+    "订单创建流程异步化",
+    "库存操作异步化",
+    "用户通知异步化",
+    "支付流程异步化"
+  ]
+}

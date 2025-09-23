@@ -1,0 +1,38 @@
+{
+  "connection_pool_tests": [
+    {
+      "total_operations": 1000,
+      "success_count": 1000,
+      "error_count": 0,
+      "success_rate": 100.0,
+      "total_time_seconds": 65.91408467292786,
+      "operations_per_second": 15.171264305073763,
+      "avg_response_time_ms": 65.90013861656189,
+      "p95_response_time_ms": 69.33698654174805,
+      "pool_max_connections": 64
+    }
+  ],
+  "retry_mechanism_tests": [
+    {
+      "total_tests": 10,
+      "success_count": 10,
+      "success_rate": 100.0,
+      "avg_response_time_ms": 113.97380828857422
+    }
+  ],
+  "concurrent_access_tests": [
+    {
+      "num_threads": 20,
+      "operations_per_thread": 50,
+      "total_operations": 1000,
+      "total_success": 1000,
+      "total_error": 0,
+      "success_rate": 100.0,
+      "total_time_seconds": 2.9952797889709473,
+      "concurrent_ops_per_second": 333.85862772557823,
+      "avg_response_time_ms": 54.10984396934509,
+      "p95_response_time_ms": 74.96528625488281
+    }
+  ],
+  "performance_metrics": {}
+}

@@ -1,0 +1,265 @@
+/* AI/英伟达科技主题 CSS 变量 */
+:root {
+  --ai-bg-primary: #0a0e17;
+  --ai-bg-secondary: #162344;
+  --ai-bg-tertiary: #0a2e3d;
+  --ai-nvidia-green: #76b900;
+  --ai-tech-blue: #00b3ff;
+  --ai-text-primary: #ffffff;
+  --ai-text-secondary: #8892b0;
+  --ai-text-accent: #ccd6f6;
+  --ai-border-primary: rgba(118, 185, 0, 0.3);
+  --ai-border-secondary: rgba(0, 179, 255, 0.3);
+  --ai-shadow-green: rgba(118, 185, 0, 0.3);
+  --ai-shadow-blue: rgba(0, 179, 255, 0.3);
+  --ai-gradient-bg: linear-gradient(135deg, #0a0e17 0%, #162344 50%, #0a2e3d 100%);
+  --ai-gradient-card: linear-gradient(145deg, rgba(10, 14, 23, 0.9) 0%, rgba(22, 35, 68, 0.8) 100%);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  background: var(--ai-gradient-bg);
+  color: var(--ai-text-primary);
+}
+
+.container {
+  padding: 20px;
+}
+
+/* 科技主题卡片样式 */
+.el-card {
+  margin-bottom: 20px;
+  background: var(--ai-gradient-card) !important;
+  border: 1px solid var(--ai-border-primary) !important;
+  border-radius: 12px !important;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    0 0 0 1px var(--ai-border-primary),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  color: var(--ai-text-primary) !important;
+}
+
+.el-card .el-card__header {
+  background: transparent !important;
+  border-bottom: 1px solid var(--ai-border-primary) !important;
+  color: var(--ai-text-primary) !important;
+}
+
+.el-card .el-card__body {
+  background: transparent !important;
+  color: var(--ai-text-primary) !important;
+}
+
+/* 科技主题表格样式 */
+.el-table {
+  background: var(--ai-gradient-card) !important;
+  color: var(--ai-text-primary) !important;
+}
+
+.el-table .cell {
+  white-space: nowrap;
+  color: var(--ai-text-primary) !important;
+}
+
+.el-table th {
+  background: rgba(118, 185, 0, 0.1) !important;
+  color: var(--ai-nvidia-green) !important;
+  border-bottom: 1px solid var(--ai-border-primary) !important;
+}
+
+.el-table td {
+  border-bottom: 1px solid var(--ai-border-primary) !important;
+}
+
+.el-table tr:hover {
+  background: rgba(118, 185, 0, 0.05) !important;
+}
+
+/* 分页样式 */
+.pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.el-pagination {
+  color: var(--ai-text-primary) !important;
+}
+
+.el-pagination .el-pager li {
+  background: var(--ai-gradient-card) !important;
+  color: var(--ai-text-primary) !important;
+  border: 1px solid var(--ai-border-primary) !important;
+}
+
+.el-pagination .el-pager li.active {
+  background: var(--ai-nvidia-green) !important;
+  color: #ffffff !important;
+}
+
+/* 表单容器样式 */
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--ai-gradient-card);
+  border: 1px solid var(--ai-border-primary);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 科技主题演出卡片 */
+.show-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: var(--ai-gradient-card) !important;
+  border: 1px solid var(--ai-border-primary) !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.show-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(90deg, transparent 95%, rgba(118, 185, 0, 0.05) 95.5%),
+    linear-gradient(transparent 95%, rgba(118, 185, 0, 0.05) 95.5%);
+  background-size: 20px 20px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.show-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.4),
+    0 0 0 1px var(--ai-nvidia-green),
+    0 0 20px var(--ai-shadow-green);
+  border-color: var(--ai-nvidia-green);
+}
+
+.show-card:hover::before {
+  opacity: 0.6;
+}
+
+/* 科技主题价格样式 */
+.price {
+  color: var(--ai-nvidia-green);
+  font-weight: bold;
+  text-shadow: 0 0 8px var(--ai-shadow-green);
+  font-size: 1.2em;
+}
+
+/* 科技主题状态样式 */
+.status-pending {
+  color: #ffd700;
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.status-paid {
+  color: var(--ai-nvidia-green);
+  text-shadow: 0 0 5px var(--ai-shadow-green);
+}
+
+.status-cancelled {
+  color: var(--ai-text-secondary);
+  text-shadow: 0 0 3px rgba(136, 146, 176, 0.3);
+}
+
+/* 科技主题按钮样式 */
+.el-button--primary {
+  background: linear-gradient(45deg, var(--ai-nvidia-green), #9dd33a) !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  text-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.el-button--primary:hover {
+  background: linear-gradient(45deg, #9dd33a, #b8e55c) !important;
+  box-shadow: 0 0 15px var(--ai-shadow-green) !important;
+  transform: translateY(-2px);
+}
+
+.el-button--success {
+  background: linear-gradient(45deg, var(--ai-tech-blue), #66d9ff) !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.el-button--success:hover {
+  background: linear-gradient(45deg, #66d9ff, #99e6ff) !important;
+  box-shadow: 0 0 15px var(--ai-shadow-blue) !important;
+}
+
+/* 科技主题输入框样式 */
+.el-input__inner {
+  background: rgba(10, 14, 23, 0.8) !important;
+  border: 1px solid var(--ai-border-primary) !important;
+  color: var(--ai-text-primary) !important;
+  border-radius: 6px;
+}
+
+.el-input__inner:focus {
+  border-color: var(--ai-nvidia-green) !important;
+  box-shadow: 0 0 0 2px var(--ai-shadow-green) !important;
+}
+
+.el-input__inner::placeholder {
+  color: var(--ai-text-secondary) !important;
+}

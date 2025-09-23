@@ -1,0 +1,134 @@
+{
+  "test_time": "2025-09-13 00:34:47",
+  "test_account": {
+    "username": "admin",
+    "password_masked": "******"
+  },
+  "summary": {
+    "total_tests": 14,
+    "passed_tests": 3,
+    "failed_tests": 11
+  },
+  "auth_analysis": {
+    "token_obtained": false,
+    "token_preview": null
+  },
+  "detailed_results": [
+    {
+      "test_name": "无认证-健康检查端点",
+      "success": false,
+      "message": "HTTP 503",
+      "details": {
+        "status_code": 503
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-信息端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-指标端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-Prometheus端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-库存水位监控API",
+      "success": false,
+      "message": "HTTP 404",
+      "details": {
+        "status_code": 404
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-成功率监控API",
+      "success": false,
+      "message": "HTTP 404",
+      "details": {
+        "status_code": 404
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-性能监控API",
+      "success": false,
+      "message": "HTTP 404",
+      "details": {
+        "status_code": 404
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-异常监控API",
+      "success": false,
+      "message": "HTTP 404",
+      "details": {
+        "status_code": 404
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "无认证-监控健康API",
+      "success": false,
+      "message": "HTTP 404",
+      "details": {
+        "status_code": 404
+      },
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "Basic认证测试",
+      "success": false,
+      "message": "Basic认证失败: 503",
+      "details": null,
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "登录端点-/api/auth/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "登录端点-/api/user/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "登录端点-/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:34:47"
+    },
+    {
+      "test_name": "登录端点-/auth/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:34:47"
+    }
+  ]
+}

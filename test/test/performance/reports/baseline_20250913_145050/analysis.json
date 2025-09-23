@@ -1,0 +1,46 @@
+{
+  "user_operations": {
+    "user_register": {
+      "total_requests": 100,
+      "success_count": 100,
+      "success_rate": 100.0,
+      "avg_response_time": 29.783220291137695,
+      "median_response_time": 28.171777725219727,
+      "p95_response_time": 50.849199295043945,
+      "max_response_time": 56.86640739440918,
+      "min_response_time": 15.052556991577148
+    },
+    "user_login": {
+      "total_requests": 200,
+      "success_count": 200,
+      "success_rate": 100.0,
+      "avg_response_time": 26.334530115127563,
+      "median_response_time": 23.406028747558594,
+      "p95_response_time": 53.80845069885254,
+      "max_response_time": 80.10745048522949,
+      "min_response_time": 9.65738296508789
+    }
+  },
+  "concurrent_operations": {
+    "mixed_register": {
+      "total_requests": 1838,
+      "success_count": 1838,
+      "success_rate": 100.0,
+      "avg_response_time": 86.6305811231362,
+      "median_response_time": 27.34220027923584,
+      "p95_response_time": 349.6096134185791,
+      "max_response_time": 1931.3054084777832,
+      "min_response_time": 10.074138641357422
+    },
+    "mixed_login": {
+      "total_requests": 1831,
+      "success_count": 1831,
+      "success_rate": 100.0,
+      "avg_response_time": 41.927838182267045,
+      "median_response_time": 20.52903175354004,
+      "p95_response_time": 107.99098014831543,
+      "max_response_time": 4062.642812728882,
+      "min_response_time": 7.681608200073242
+    }
+  }
+}

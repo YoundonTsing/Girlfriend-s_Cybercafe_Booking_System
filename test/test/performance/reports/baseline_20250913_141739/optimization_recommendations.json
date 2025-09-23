@@ -1,0 +1,34 @@
+{
+  "test_timestamp": "20250913_141739",
+  "bottlenecks": [
+    {
+      "operation": "stock_query",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    },
+    {
+      "operation": "mixed_stock_query",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    },
+    {
+      "operation": "mixed_order_create",
+      "issue": "成功率过低",
+      "value": "0.00%",
+      "severity": "critical"
+    }
+  ],
+  "recommendations": [
+    "stock_query: 需要提高系统稳定性和错误处理",
+    "mixed_stock_query: 需要提高系统稳定性和错误处理",
+    "mixed_order_create: 需要提高系统稳定性和错误处理"
+  ],
+  "rocketmq_optimization_targets": [
+    "订单创建流程异步化",
+    "库存操作异步化",
+    "用户通知异步化",
+    "支付流程异步化"
+  ]
+}

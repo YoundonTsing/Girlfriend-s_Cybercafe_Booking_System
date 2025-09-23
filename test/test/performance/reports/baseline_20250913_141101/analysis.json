@@ -1,0 +1,50 @@
+{
+  "user_operations": {
+    "user_register": {
+      "total_requests": 100,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 25.61769962310791,
+      "median_response_time": 21.417975425720215,
+      "p95_response_time": 55.05061149597168,
+      "max_response_time": 63.58933448791504,
+      "min_response_time": 9.972572326660156
+    }
+  },
+  "order_operations": {
+    "order_create": {
+      "total_requests": 150,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 0.0069586435953776045,
+      "median_response_time": 0.0,
+      "p95_response_time": 0.0,
+      "max_response_time": 1.0437965393066406,
+      "min_response_time": 0.0
+    }
+  },
+  "stock_operations": {
+    "stock_query": {
+      "total_requests": 300,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 59.19535239537557,
+      "median_response_time": 57.161927223205566,
+      "p95_response_time": 112.01310157775879,
+      "max_response_time": 149.15013313293457,
+      "min_response_time": 10.680198669433594
+    }
+  },
+  "concurrent_operations": {
+    "mixed_register": {
+      "total_requests": 25,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 433.83646965026855,
+      "median_response_time": 11.154651641845703,
+      "p95_response_time": 2966.3875102996826,
+      "max_response_time": 3060.368776321411,
+      "min_response_time": 6.850242614746094
+    }
+  }
+}

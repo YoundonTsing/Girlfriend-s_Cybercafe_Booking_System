@@ -1,0 +1,136 @@
+# 公共配置文件 - 所有微服务共享
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  
+  # 数据库连接池配置
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      # 连接池配置
+      maximum-pool-size: ${DB_MAX_POOL_SIZE:20}
+      minimum-idle: ${DB_MIN_IDLE:5}
+      connection-timeout: ${DB_CONNECTION_TIMEOUT:30000}
+      idle-timeout: ${DB_IDLE_TIMEOUT:600000}
+      max-lifetime: ${DB_MAX_LIFETIME:1800000}
+      leak-detection-threshold: ${DB_LEAK_DETECTION_THRESHOLD:60000}
+      
+      # 连接测试配置
+      connection-test-query: SELECT 1
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      
+      # 性能优化配置
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      cache-prep-stmts: true
+      prep-stmt-cache-size: 250
+      prep-stmt-cache-sql-limit: 2048
+
+  # Redis 配置
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    database: ${REDIS_DATABASE:0}
+    timeout: ${REDIS_TIMEOUT:1800000}
+    # password: ${REDIS_PASSWORD:}  # 注释掉密码配置，避免无密码时的AUTH错误
+    lettuce:
+      pool:
+        max-active: ${REDIS_MAX_ACTIVE:20}
+        max-wait: ${REDIS_MAX_WAIT:-1}
+        max-idle: ${REDIS_MAX_IDLE:5}
+        min-idle: ${REDIS_MIN_IDLE:0}
+
+  # Elasticsearch 配置
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      client:
+        reactive:
+          endpoints: ${ES_ENDPOINTS:localhost:9200}
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: ${MYBATIS_LOG_IMPL:org.apache.ibatis.logging.stdout.StdOutImpl}
+    cache-enabled: true
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+    multiple-result-sets-enabled: true
+    use-column-label: true
+    use-generated-keys: false
+    auto-mapping-behavior: PARTIAL
+    auto-mapping-unknown-column-behavior: NONE
+    default-executor-type: SIMPLE
+    default-statement-timeout: 25
+    default-fetch-size: 100
+    safe-row-bounds-enabled: false
+    safe-result-handler-enabled: true
+    map-underscore-to-camel-case: true
+    local-cache-scope: SESSION
+    jdbc-type-for-null: OTHER
+    lazy-load-trigger-methods: equals,clone,hashCode,toString
+    call-setters-on-nulls: false
+    return-instance-for-empty-row: false
+    log-prefix: "MyBatis-Plus: "
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      update-strategy: NOT_NULL
+      insert-strategy: NOT_NULL
+      select-strategy: NOT_EMPTY
+
+# 日志配置
+logging:
+  level:
+    com.ticketsystem: ${LOG_LEVEL:debug}
+    org.springframework.cloud: ${LOG_LEVEL:info}
+    org.springframework.security: ${LOG_LEVEL:debug}
+    org.springframework.web: ${LOG_LEVEL:info}
+    org.springframework.data: ${LOG_LEVEL:info}
+    org.mybatis: ${LOG_LEVEL:debug}
+    com.zaxxer.hikari: ${LOG_LEVEL:info}
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+  file:
+    name: logs/${spring.application.name}.log
+    max-size: ${LOG_MAX_SIZE:100MB}
+    max-history: ${LOG_MAX_HISTORY:30}
+
+# 服务配置
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+      pattern: "%t %h %l %u %r %s (%D ms) %{User-Agent}i"
+      directory: logs
+      prefix: access
+      suffix: .log
+      file-date-format: .yyyy-MM-dd
+      rotate: true
+      max-days: 30
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+
+# 监控配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when-authorized
+  metrics:
+    export:
+      prometheus:
+        enabled: true

@@ -1,0 +1,189 @@
+{
+  "test_time": "2025-09-13 00:28:45",
+  "service_url": "http://localhost:8082",
+  "summary": {
+    "total_tests": 14,
+    "passed_tests": 12,
+    "failed_tests": 2
+  },
+  "detailed_results": [
+    {
+      "test_name": "服务健康检查",
+      "success": false,
+      "message": "HTTP状态码: 503",
+      "details": null,
+      "timestamp": "2025-09-13 00:28:44"
+    },
+    {
+      "test_name": "Actuator端点-health",
+      "success": false,
+      "message": "HTTP状态码: 503",
+      "details": null,
+      "timestamp": "2025-09-13 00:28:44"
+    },
+    {
+      "test_name": "Actuator端点-info",
+      "success": true,
+      "message": "端点可访问",
+      "details": null,
+      "timestamp": "2025-09-13 00:28:44"
+    },
+    {
+      "test_name": "Actuator端点-metrics",
+      "success": true,
+      "message": "端点可访问",
+      "details": null,
+      "timestamp": "2025-09-13 00:28:44"
+    },
+    {
+      "test_name": "Actuator端点-prometheus",
+      "success": true,
+      "message": "端点可访问",
+      "details": null,
+      "timestamp": "2025-09-13 00:28:44"
+    },
+    {
+      "test_name": "Prometheus指标检查",
+      "success": true,
+      "message": "找到 6/6 个预期指标",
+      "details": {
+        "found_metrics": [
+          "stock_operations_total",
+          "stock_operation_duration_seconds",
+          "stock_alerts_total",
+          "stock_level_percentage",
+          "stock_lock_success_total",
+          "stock_lock_failure_total"
+        ],
+        "missing_metrics": []
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-库存水位统计",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "exhausted_stocks",
+          "notice_stocks",
+          "critical_stocks",
+          "warning_stocks",
+          "healthy_stocks",
+          "total_stocks",
+          "check_time"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-操作成功率统计",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "overall_success_rate",
+          "lock_success_rate",
+          "success",
+          "confirm_success_rate",
+          "rollback_success_rate",
+          "total_operations",
+          "error_operations",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-性能指标统计",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "error_rate",
+          "qps",
+          "success",
+          "concurrent_operations",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-异常操作统计",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "lua_script_errors",
+          "critical_alerts",
+          "total_alerts",
+          "success",
+          "notice_alerts",
+          "database_errors",
+          "business_logic_errors",
+          "redis_connection_errors",
+          "warning_alerts",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-监控系统健康状态",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "error_rate",
+          "stock_monitor",
+          "good_performance",
+          "low_error_rate",
+          "meter_registry",
+          "status",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "监控API-手动触发库存检查",
+      "success": true,
+      "message": "API响应正常",
+      "details": {
+        "response_keys": [
+          "duration_ms",
+          "success",
+          "message",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "指标收集测试",
+      "success": true,
+      "message": "找到 4 个库存相关指标",
+      "details": {
+        "found_metrics": [
+          "stock_operations_total",
+          "stock_operation_duration_seconds",
+          "stock_alerts_total",
+          "stock_level_percentage"
+        ],
+        "total_metrics": 70
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    },
+    {
+      "test_name": "手动库存检查",
+      "success": true,
+      "message": "库存水位检查已完成",
+      "details": {
+        "duration_ms": 3,
+        "timestamp": 1757694525160
+      },
+      "timestamp": "2025-09-13 00:28:45"
+    }
+  ]
+}

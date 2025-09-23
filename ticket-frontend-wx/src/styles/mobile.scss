@@ -1,0 +1,222 @@
+// 移动端全局样式变量和混合器
+// ===================================
+
+// 响应式断点
+$mobile-xs: 320px;    // 超小屏手机
+$mobile-sm: 480px;    // 小屏手机
+$tablet: 768px;       // 平板
+$desktop: 1024px;     // 桌面
+$desktop-lg: 1200px;  // 大桌面
+
+// 移动端专用变量
+:root {
+  // 移动端字体大小
+  --mobile-font-xs: 12px;
+  --mobile-font-sm: 14px;
+  --mobile-font-base: 16px;
+  --mobile-font-lg: 18px;
+  --mobile-font-xl: 20px;
+  --mobile-font-2xl: 24px;
+  
+  // 移动端间距
+  --mobile-spacing-xs: 4px;
+  --mobile-spacing-sm: 8px;
+  --mobile-spacing-base: 16px;
+  --mobile-spacing-lg: 24px;
+  --mobile-spacing-xl: 32px;
+  
+  // 触摸目标最小尺寸 (Apple HIG 推荐44px)
+  --touch-target-min: 44px;
+  
+  // 移动端容器宽度
+  --mobile-container-padding: 16px;
+  
+  // 移动端导航高度
+  --mobile-navbar-height: 56px;
+  --mobile-tabbar-height: 60px;
+  
+  // 移动端阴影
+  --mobile-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --mobile-shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --mobile-shadow-heavy: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+// 响应式混合器
+@mixin mobile-xs {
+  @media (max-width: #{$mobile-xs - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile-sm {
+  @media (max-width: #{$mobile-sm - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin desktop-lg {
+  @media (min-width: #{$desktop-lg}) {
+    @content;
+  }
+}
+
+// 移动端通用样式类
+.mobile-container {
+  padding: 0 var(--mobile-container-padding);
+  margin: 0 auto;
+  
+  @include mobile {
+    max-width: 100%;
+  }
+  
+  @include tablet {
+    max-width: 720px;
+  }
+  
+  @include desktop {
+    max-width: 1140px;
+  }
+}
+
+// 触摸友好的按钮
+.touch-button {
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--mobile-spacing-sm) var(--mobile-spacing-base);
+  
+  @include mobile {
+    font-size: var(--mobile-font-base);
+  }
+}
+
+// 移动端卡片样式
+.mobile-card {
+  border-radius: 12px;
+  box-shadow: var(--mobile-shadow-light);
+  overflow: hidden;
+  
+  @include mobile {
+    margin: var(--mobile-spacing-sm);
+    border-radius: 8px;
+  }
+}
+
+// 移动端文字大小适配
+.mobile-title {
+  @include mobile {
+    font-size: var(--mobile-font-xl);
+    line-height: 1.3;
+  }
+}
+
+.mobile-subtitle {
+  @include mobile {
+    font-size: var(--mobile-font-base);
+    line-height: 1.4;
+  }
+}
+
+.mobile-text {
+  @include mobile {
+    font-size: var(--mobile-font-sm);
+    line-height: 1.5;
+  }
+}
+
+// 移动端隐藏/显示
+.mobile-only {
+  display: none;
+  
+  @include mobile {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: block;
+  
+  @include mobile {
+    display: none;
+  }
+}
+
+// 移动端网格系统
+.mobile-grid {
+  display: grid;
+  gap: var(--mobile-spacing-base);
+  
+  &.grid-1 {
+    grid-template-columns: 1fr;
+  }
+  
+  &.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    
+    @include mobile-sm {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  &.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include mobile-sm {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  &.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+    
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include mobile-sm {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// 移动端安全区域适配 (用于iPhone X等有刘海的设备)
+.safe-area-insets {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+// 移动端滚动优化
+.mobile-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}

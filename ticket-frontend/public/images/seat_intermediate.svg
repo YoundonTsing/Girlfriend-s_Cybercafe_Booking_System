@@ -1,0 +1,96 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1.2) translate(100, 0)">
+  <defs>
+    <linearGradient id="intermediateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGlowGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34D399;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="rgbLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.2" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#intermediateGradient)"/>
+  
+  <!-- RGB Lighting Effects -->
+  <circle cx="80" cy="90" r="25" fill="url(#rgbLight)" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="110" r="20" fill="url(#rgbLight)" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Desk -->
+  <rect x="140" y="200" width="220" height="70" rx="12" fill="#065F46" opacity="0.9"/>
+  <rect x="145" y="205" width="210" height="60" rx="8" fill="#047857" opacity="0.7"/>
+  
+  <!-- Dual Monitor Setup -->
+  <rect x="160" y="120" width="70" height="50" rx="5" fill="#1F2937" stroke="#10B981" stroke-width="2"/>
+  <rect x="163" y="123" width="64" height="44" rx="3" fill="url(#screenGlowGreen)"/>
+  
+  <rect x="240" y="120" width="70" height="50" rx="5" fill="#1F2937" stroke="#10B981" stroke-width="2"/>
+  <rect x="243" y="123" width="64" height="44" rx="3" fill="url(#screenGlowGreen)"/>
+  
+  <!-- Monitor Stands -->
+  <rect x="185" y="170" width="15" height="10" rx="2" fill="#374151"/>
+  <rect x="180" y="180" width="25" height="5" rx="2" fill="#374151"/>
+  <rect x="265" y="170" width="15" height="10" rx="2" fill="#374151"/>
+  <rect x="260" y="180" width="25" height="5" rx="2" fill="#374151"/>
+  
+  <!-- Gaming Chair with RGB -->
+  <ellipse cx="70" cy="220" rx="40" ry="22" fill="#047857"/>
+  <rect x="50" y="198" width="40" height="44" rx="20" fill="#059669"/>
+  <rect x="40" y="185" width="60" height="28" rx="14" fill="#10B981"/>
+  
+  <!-- RGB Strip on Chair -->
+  <rect x="45" y="190" width="50" height="3" rx="1.5" fill="#34D399" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Mechanical Keyboard -->
+  <rect x="170" y="220" width="120" height="25" rx="3" fill="#374151"/>
+  <rect x="175" y="225" width="110" height="15" rx="2" fill="#1F2937"/>
+  <!-- Key backlighting -->
+  <rect x="180" y="230" width="100" height="8" rx="1" fill="#10B981" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Gaming Mouse with RGB -->
+  <ellipse cx="320" cy="235" rx="12" ry="15" fill="#374151"/>
+  <ellipse cx="320" cy="233" rx="10" ry="12" fill="#1F2937"/>
+  <circle cx="320" cy="228" r="2" fill="#10B981" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Headset -->
+  <path d="M120 100 Q150 85 180 100" stroke="#10B981" stroke-width="3" fill="none"/>
+  <circle cx="125" cy="105" r="10" fill="#374151"/>
+  <circle cx="175" cy="105" r="10" fill="#374151"/>
+  <circle cx="125" cy="105" r="6" fill="#10B981" opacity="0.7"/>
+  <circle cx="175" cy="105" r="6" fill="#10B981" opacity="0.7"/>
+  
+  <!-- Performance Indicators -->
+  <circle cx="350" cy="50" r="4" fill="#34D399" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="365" cy="35" r="3" fill="#10B981" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="55" r="2" fill="#059669" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="50" y="40" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">中级电竞机位</text>
+  <text x="50" y="65" text-anchor="start" fill="#34D399" font-family="Arial, sans-serif" font-size="14">双屏配置 · RGB灯效</text>
+  
+  <!-- Specs -->
+  <text x="50" y="280" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">i7-9700 | RTX2070 | 32GB</text>
+  </g>
+</svg>

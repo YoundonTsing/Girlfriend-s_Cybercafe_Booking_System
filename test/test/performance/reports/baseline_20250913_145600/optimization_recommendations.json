@@ -1,0 +1,11 @@
+{
+  "test_timestamp": "20250913_145600",
+  "bottlenecks": [],
+  "recommendations": [],
+  "rocketmq_optimization_targets": [
+    "订单创建流程异步化",
+    "库存操作异步化",
+    "用户通知异步化",
+    "支付流程异步化"
+  ]
+}

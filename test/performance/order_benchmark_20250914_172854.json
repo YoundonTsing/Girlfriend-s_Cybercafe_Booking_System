@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-09-14T17:28:54.002470",
+  "base_url": "http://localhost:8000",
+  "concurrency": 100,
+  "total_requests": 1000,
+  "initial_stock": 1000,
+  "sold": 0,
+  "redis_remain": 1000,
+  "expected_remain": 1000,
+  "duration_sec": 3.0797698497772217,
+  "create_success": 0,
+  "pay_success": 0,
+  "create_tps": 0.0,
+  "pay_tps": 0.0,
+  "latency_ms": {
+    "create_avg": 190.4604663848877,
+    "create_p50": 156.2502384185791,
+    "create_max": 1054.3968677520752,
+    "pay_avg": null,
+    "pay_p50": null,
+    "pay_max": null
+  }
+}

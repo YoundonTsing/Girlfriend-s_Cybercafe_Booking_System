@@ -1,0 +1,100 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1.2) translate(100, 0)">
+  <defs>
+    <linearGradient id="advancedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGlowRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F87171;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="redLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:0.2" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#advancedGradient)"/>
+  
+  <!-- Dynamic RGB Lighting -->
+  <circle cx="85" cy="80" r="20" fill="url(#redLight)" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 85 80;360 85 80" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="100" r="15" fill="url(#redLight)" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="2.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="360 330 100;0 330 100" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- High-end Gaming Desk -->
+  <rect x="140" y="200" width="220" height="70" rx="15" fill="#7F1D1D" opacity="0.9"/>
+  <rect x="145" y="205" width="210" height="60" rx="10" fill="#991B1B" opacity="0.8"/>
+  
+  <!-- Ultra-wide Monitor -->
+  <rect x="180" y="120" width="160" height="60" rx="8" fill="#1F2937" stroke="#EF4444" stroke-width="2"/>
+  <rect x="185" y="125" width="150" height="50" rx="5" fill="url(#screenGlowRed)"/>
+  
+  <!-- Gaming content -->
+  <rect x="200" y="135" width="25" height="15" rx="2" fill="#FECACA" opacity="0.6"/>
+  <rect x="230" y="140" width="20" height="10" rx="2" fill="#FCA5A5" opacity="0.7"/>
+  <rect x="260" y="130" width="30" height="20" rx="2" fill="#F87171" opacity="0.8"/>
+  <rect x="295" y="145" width="25" height="15" rx="2" fill="#EF4444" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.6;0.9" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Monitor Stand -->
+  <rect x="250" y="180" width="20" height="12" rx="3" fill="#374151"/>
+  <rect x="245" y="190" width="30" height="6" rx="3" fill="#374151"/>
+  <rect x="248" y="192" width="24" height="3" rx="1.5" fill="#EF4444" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Professional Gaming Chair -->
+  <ellipse cx="70" cy="230" rx="45" ry="25" fill="#7F1D1D"/>
+  <rect x="45" y="205" width="50" height="50" rx="25" fill="#991B1B"/>
+  <rect x="35" y="190" width="70" height="30" rx="15" fill="#B91C1C"/>
+  
+  <!-- Chair RGB strips -->
+  <rect x="40" y="195" width="60" height="2" rx="1" fill="#F87171" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="40" y="215" width="60" height="2" rx="1" fill="#EF4444" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Gaming Keyboard -->
+  <rect x="190" y="220" width="140" height="25" rx="4" fill="#374151"/>
+  <rect x="195" y="225" width="130" height="15" rx="3" fill="#1F2937"/>
+  
+  <!-- Gaming Mouse -->
+  <ellipse cx="350" cy="235" rx="15" ry="18" fill="#374151"/>
+  <ellipse cx="350" cy="233" rx="12" ry="15" fill="#1F2937"/>
+  <circle cx="350" cy="225" r="3" fill="#EF4444" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gaming Headset -->
+  <path d="M130 85 Q150 70 170 85" stroke="#EF4444" stroke-width="4" fill="none"/>
+  <circle cx="135" cy="90" r="12" fill="#374151"/>
+  <circle cx="165" cy="90" r="12" fill="#374151"/>
+  <circle cx="135" cy="90" r="8" fill="#EF4444" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="165" cy="90" r="8" fill="#EF4444" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- FPS Counter -->
+  <rect x="300" y="60" width="50" height="20" rx="4" fill="#1F2937" opacity="0.8"/>
+  <text x="325" y="72" text-anchor="middle" fill="#EF4444" font-family="Arial, sans-serif" font-size="10" font-weight="bold">144fps</text>
+  
+  <!-- Title -->
+  <text x="50" y="40" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">高级电竞机位</text>
+  <text x="50" y="65" text-anchor="start" fill="#F87171" font-family="Arial, sans-serif" font-size="14">专业配置 · 144Hz显示</text>
+  
+  <!-- Specs -->
+  <text x="50" y="280" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">i7-11700K | RTX3070 | 32GB</text>
+  </g>
+</svg>

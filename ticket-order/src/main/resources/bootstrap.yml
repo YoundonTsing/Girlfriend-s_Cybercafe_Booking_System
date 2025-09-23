@@ -1,0 +1,23 @@
+# bootstrap.yml - 启动配置
+spring:
+  application:
+    name: ticket-order
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  
+  # Nacos配置中心连接信息
+  cloud:
+    nacos:
+      config:
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8848}
+        namespace: ${NACOS_NAMESPACE:}
+        file-extension: yaml
+        import-check:
+          enabled: false
+      discovery:
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8848}
+        namespace: ${NACOS_NAMESPACE:}
+        group: DEFAULT_GROUP
+        register-enabled: true
+        ip: 127.0.0.1
+        prefer-ip-address: false

@@ -1,0 +1,66 @@
+{
+  "user_operations": {
+    "user_register": {
+      "total_requests": 100,
+      "success_count": 100,
+      "success_rate": 100.0,
+      "avg_response_time": 30.980007648468018,
+      "median_response_time": 29.561400413513184,
+      "p95_response_time": 45.29690742492676,
+      "max_response_time": 53.93528938293457,
+      "min_response_time": 16.574382781982422
+    },
+    "user_login": {
+      "total_requests": 200,
+      "success_count": 200,
+      "success_rate": 100.0,
+      "avg_response_time": 52.282127141952515,
+      "median_response_time": 44.90387439727783,
+      "p95_response_time": 104.79402542114258,
+      "max_response_time": 146.2421417236328,
+      "min_response_time": 10.935544967651367
+    }
+  },
+  "concurrent_operations": {
+    "mixed_register": {
+      "total_requests": 2746,
+      "success_count": 2746,
+      "success_rate": 100.0,
+      "avg_response_time": 79.32408734645969,
+      "median_response_time": 25.420665740966797,
+      "p95_response_time": 308.94970893859863,
+      "max_response_time": 685.4362487792969,
+      "min_response_time": 9.657859802246094
+    },
+    "mixed_login": {
+      "total_requests": 2738,
+      "success_count": 2738,
+      "success_rate": 100.0,
+      "avg_response_time": 25.681390999180284,
+      "median_response_time": 20.342350006103516,
+      "p95_response_time": 53.220510482788086,
+      "max_response_time": 361.6170883178711,
+      "min_response_time": 8.71586799621582
+    },
+    "mixed_stock_query": {
+      "total_requests": 2727,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 14.963599321472369,
+      "median_response_time": 11.417627334594727,
+      "p95_response_time": 34.54327583312988,
+      "max_response_time": 250.7631778717041,
+      "min_response_time": 3.1256675720214844
+    },
+    "mixed_order_create": {
+      "total_requests": 2724,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "avg_response_time": 14.736545681078178,
+      "median_response_time": 11.362910270690918,
+      "p95_response_time": 34.26623344421387,
+      "max_response_time": 221.61364555358887,
+      "min_response_time": 2.7303695678710938
+    }
+  }
+}

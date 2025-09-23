@@ -1,0 +1,122 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1.2) translate(100, 0)">
+  <defs>
+    <linearGradient id="vipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C2D12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A16207;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="luxuryLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#92400E;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#vipGradient)"/>
+  
+  <!-- Luxury ambient lighting -->
+  <circle cx="80" cy="80" r="25" fill="url(#luxuryLight)" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="100" r="20" fill="url(#luxuryLight)" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- VIP Room Walls -->
+  <rect x="30" y="60" width="5" height="180" fill="#92400E" opacity="0.6"/>
+  <rect x="365" y="60" width="5" height="180" fill="#92400E" opacity="0.6"/>
+  <rect x="30" y="60" width="340" height="5" fill="#92400E" opacity="0.6"/>
+  
+  <!-- Luxury Gaming Desk -->
+  <rect x="150" y="200" width="200" height="70" rx="15" fill="#92400E"/>
+  <rect x="155" y="205" width="190" height="60" rx="12" fill="#A16207" opacity="0.9"/>
+  <rect x="160" y="210" width="180" height="50" rx="8" fill="url(#goldGradient)" opacity="0.3"/>
+  
+  <!-- Curved Ultra-wide Monitor -->
+  <path d="M180 120 Q250 110 320 120 L320 170 Q250 180 180 170 Z" fill="#1F2937" stroke="#FBBF24" stroke-width="2"/>
+  <path d="M185 125 Q250 115 315 125 L315 165 Q250 175 185 165 Z" fill="url(#goldGradient)" opacity="0.4"/>
+  
+  <!-- Gaming content -->
+  <rect x="210" y="135" width="25" height="15" rx="2" fill="#FEF3C7" opacity="0.7"/>
+  <rect x="245" y="140" width="20" height="12" rx="2" fill="#FDE68A" opacity="0.8"/>
+  <rect x="275" y="130" width="30" height="18" rx="2" fill="#FBBF24" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Monitor Stand -->
+  <rect x="240" y="180" width="20" height="15" rx="4" fill="#374151"/>
+  <rect x="230" y="192" width="40" height="8" rx="4" fill="#374151"/>
+  <rect x="235" y="195" width="30" height="3" rx="1.5" fill="url(#goldGradient)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Executive Gaming Chair -->
+  <ellipse cx="70" cy="235" rx="50" ry="28" fill="#7C2D12"/>
+  <rect x="40" y="207" width="60" height="56" rx="28" fill="#92400E"/>
+  <rect x="30" y="190" width="80" height="35" rx="17" fill="#A16207"/>
+  
+  <!-- Chair details -->
+  <rect x="35" y="195" width="70" height="3" rx="1.5" fill="url(#goldGradient)" opacity="0.8"/>
+  <rect x="35" y="210" width="70" height="3" rx="1.5" fill="url(#goldGradient)" opacity="0.8"/>
+  <rect x="35" y="225" width="70" height="3" rx="1.5" fill="url(#goldGradient)" opacity="0.8"/>
+  
+  <!-- Premium Keyboard -->
+  <rect x="170" y="225" width="130" height="30" rx="6" fill="#374151"/>
+  <rect x="175" y="230" width="120" height="20" rx="5" fill="#1F2937"/>
+  
+  <!-- Gold key switches -->
+  <rect x="185" y="235" width="12" height="8" rx="2" fill="url(#goldGradient)" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="205" y="235" width="12" height="8" rx="2" fill="url(#goldGradient)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="225" y="235" width="12" height="8" rx="2" fill="url(#goldGradient)" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Luxury Gaming Mouse -->
+  <ellipse cx="330" cy="240" rx="16" ry="20" fill="#374151"/>
+  <ellipse cx="330" cy="238" rx="13" ry="17" fill="#1F2937"/>
+  <ellipse cx="330" cy="230" rx="6" ry="8" fill="url(#goldGradient)" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Premium Headset -->
+  <path d="M120 90 Q150 75 180 90" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+  <circle cx="125" cy="95" r="14" fill="#374151"/>
+  <circle cx="175" cy="95" r="14" fill="#374151"/>
+  <circle cx="125" cy="95" r="10" fill="url(#goldGradient)" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="175" cy="95" r="10" fill="url(#goldGradient)" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Mini Fridge -->
+  <rect x="360" y="220" width="20" height="35" rx="4" fill="#374151"/>
+  <rect x="362" y="222" width="16" height="31" rx="2" fill="#4B5563"/>
+  <circle cx="370" cy="237" r="1.5" fill="url(#goldGradient)"/>
+  
+  <!-- Crown Icon -->
+  <path d="M200 70 L195 80 L205 80 Z" fill="url(#goldGradient)"/>
+  <circle cx="195" cy="78" r="2" fill="#FCD34D"/>
+  <circle cx="200" cy="75" r="2.5" fill="#FCD34D"/>
+  <circle cx="205" cy="78" r="2" fill="#FCD34D"/>
+  
+  <!-- VIP Status -->
+  <rect x="270" y="65" width="60" height="20" rx="6" fill="#1F2937" opacity="0.9"/>
+  <text x="300" y="77" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="10" font-weight="bold">VIP ROOM</text>
+  
+  <!-- Title -->
+  <text x="50" y="40" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">包厢电竞机位</text>
+  <text x="50" y="65" text-anchor="start" fill="#FCD34D" font-family="Arial, sans-serif" font-size="14">私密空间 · 奢华体验</text>
+  
+  <!-- Specs -->
+  <text x="50" y="280" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">i9-12900K | RTX3080 | 64GB</text>
+  </g>
+</svg>

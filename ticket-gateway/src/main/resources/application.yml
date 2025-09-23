@@ -1,0 +1,174 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: ticket-gateway
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  
+  # Nacos配置导入，带上 server-addr/namespace 参数以便在"非常早"阶段可用
+  config:
+    import: optional:nacos:ticket-gateway.yaml?server-addr=127.0.0.1:8848&namespace=
+  
+  # Gateway配置
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      namespace: 
+      discovery:
+        enabled: true
+        group: DEFAULT_GROUP
+        register-enabled: true
+        ip: 127.0.0.1
+        prefer-ip-address: false
+      config:
+        enabled: true
+        import-check:
+          enabled: false
+        shared-configs:
+          - data-id: common.yml
+            group: DEFAULT_GROUP
+            refresh: true
+    
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        # 用户服务路由
+        - id: user-service
+          uri: lb://ticket-user
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=0
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY,GATEWAY_TIMEOUT
+                methods: GET,POST
+                backoff:
+                  firstBackoff: 10ms
+                  maxBackoff: 50ms
+                  factor: 2
+            - name: RequestSize
+              args:
+                maxSize: 5000000
+        
+        # 演出服务路由
+        - id: show-service
+          uri: lb://ticket-show
+          predicates:
+            - Path=/api/show/**, /api/ticket/**, /api/seckill/**, /api/seat/**
+          filters:
+            - StripPrefix=0
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY,GATEWAY_TIMEOUT
+                methods: GET,POST
+                backoff:
+                  firstBackoff: 10ms
+                  maxBackoff: 50ms
+                  factor: 2
+            - name: RequestSize
+              args:
+                maxSize: 5000000
+        
+        # 订单服务路由
+        - id: order-service
+          uri: lb://ticket-order
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - StripPrefix=0
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY,GATEWAY_TIMEOUT
+                methods: GET,POST
+                backoff:
+                  firstBackoff: 10ms
+                  maxBackoff: 50ms
+                  factor: 2
+            - name: RequestSize
+              args:
+                maxSize: 5000000
+      
+      # 全局过滤器配置
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      
+      # 全局CORS配置
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOriginPatterns: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
+            exposedHeaders: "Content-Length,Content-Range"
+      
+      # 超时配置
+      httpclient:
+        connect-timeout: 5000
+        response-timeout: 30s
+        wiretap: true
+        pool:
+          type: elastic
+          max-connections: 500
+          max-idle-time: 15s
+    
+    # Sentinel配置
+    sentinel:
+      transport:
+        dashboard: ${SENTINEL_DASHBOARD:localhost:8080}
+      eager: true
+  
+  # 定时任务配置
+  task:
+    scheduling:
+      pool:
+        size: 5
+      thread-name-prefix: gateway-task-
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 100
+        keep-alive: 60s
+
+# Actuator配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,gateway
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    gateway:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    web:
+      server:
+        request:
+          autotime:
+            enabled: true
+
+# 日志配置
+logging:
+  level:
+    com.ticketsystem: debug
+    org.springframework.cloud.gateway: debug
+    org.springframework.scheduling: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{50} - %msg%n"

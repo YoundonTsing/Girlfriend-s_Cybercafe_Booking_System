@@ -1,0 +1,90 @@
+{
+  "user_operations": {
+    "user_register": {
+      "total_requests": 100,
+      "success_count": 100,
+      "success_rate": 100.0,
+      "avg_response_time": 28.835692405700684,
+      "median_response_time": 27.40180492401123,
+      "p95_response_time": 42.645931243896484,
+      "max_response_time": 51.82957649230957,
+      "min_response_time": 15.379667282104492
+    },
+    "user_login": {
+      "total_requests": 200,
+      "success_count": 200,
+      "success_rate": 100.0,
+      "avg_response_time": 219.21164512634277,
+      "median_response_time": 195.62220573425293,
+      "p95_response_time": 401.6141891479492,
+      "max_response_time": 703.9265632629395,
+      "min_response_time": 96.12059593200684
+    }
+  },
+  "order_operations": {
+    "order_create": {
+      "total_requests": 150,
+      "success_count": 150,
+      "success_rate": 100.0,
+      "avg_response_time": 36.95077737172445,
+      "median_response_time": 37.64140605926514,
+      "p95_response_time": 55.20915985107422,
+      "max_response_time": 65.93155860900879,
+      "min_response_time": 14.16015625
+    }
+  },
+  "stock_operations": {
+    "stock_query": {
+      "total_requests": 300,
+      "success_count": 300,
+      "success_rate": 100.0,
+      "avg_response_time": 63.78209670384725,
+      "median_response_time": 48.79319667816162,
+      "p95_response_time": 142.5914764404297,
+      "max_response_time": 373.66580963134766,
+      "min_response_time": 14.59503173828125
+    }
+  },
+  "concurrent_operations": {
+    "mixed_register": {
+      "total_requests": 1868,
+      "success_count": 1868,
+      "success_rate": 100.0,
+      "avg_response_time": 128.03489059146008,
+      "median_response_time": 34.966111183166504,
+      "p95_response_time": 433.78329277038574,
+      "max_response_time": 959.4709873199463,
+      "min_response_time": 7.039070129394531
+    },
+    "mixed_login": {
+      "total_requests": 1862,
+      "success_count": 1862,
+      "success_rate": 100.0,
+      "avg_response_time": 261.0130475235805,
+      "median_response_time": 241.1106824874878,
+      "p95_response_time": 490.0186061859131,
+      "max_response_time": 1130.7740211486816,
+      "min_response_time": 95.55363655090332
+    },
+    "mixed_stock_query": {
+      "total_requests": 1069,
+      "success_count": 1069,
+      "success_rate": 100.0,
+      "avg_response_time": 27.233625818793186,
+      "median_response_time": 17.92430877685547,
+      "p95_response_time": 74.0957260131836,
+      "max_response_time": 544.8248386383057,
+      "min_response_time": 8.656740188598633
+    },
+    "mixed_order_create": {
+      "total_requests": 1066,
+      "success_count": 1066,
+      "success_rate": 100.0,
+      "avg_response_time": 27.81971422413724,
+      "median_response_time": 15.911221504211426,
+      "p95_response_time": 66.76125526428223,
+      "max_response_time": 585.3109359741211,
+      "min_response_time": 7.488489151000977
+    }
+  }
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "test_name": "用户登录",
+    "success": true,
+    "message": "登录成功，获取到JWT token，用户ID: 2",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "userId": 2,
+      "username": "admin",
+      "nickname": "Administrator",
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE3NTc4NDg5NDEsImV4cCI6MTc1NzkzNTM0MX0._SJyjxoCdZSewH7t_wx2-kJfkmNOlaXe4C4HLk11rao"
+    }
+  },
+  {
+    "test_name": "获取演出列表",
+    "success": true,
+    "message": "成功获取演出列表，共5个演出，选择演出: 新客电竞机位",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "id": 1,
+      "name": "新客电竞机位",
+      "type": 1,
+      "typeName": "演唱会",
+      "posterUrl": "/images/seat_newbie.svg",
+      "venue": "自由点网咖",
+      "city": "哈尔滨市",
+      "startTime": "2024-01-01T00:00:00",
+      "endTime": "2024-12-31T23:59:59",
+      "minPrice": 10.0,
+      "maxPrice": 13.0,
+      "status": 1,
+      "statusName": "售票中",
+      "isHot": 0,
+      "isRecommend": 0
+    }
+  },
+  {
+    "test_name": "获取演出详情",
+    "success": true,
+    "message": "成功获取演出详情: 新客电竞机位",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "id": 1,
+      "name": "新客电竞机位",
+      "type": 1,
+      "typeName": "演唱会",
+      "posterUrl": "/images/seat_newbie.svg",
+      "description": "新客电竞机位，适合初学者",
+      "venue": "自由点网咖",
+      "city": "哈尔滨市",
+      "startTime": "2024-01-01T00:00:00",
+      "endTime": "2024-12-31T23:59:59",
+      "minPrice": 10.0,
+      "maxPrice": 13.0,
+      "status": 1,
+      "statusName": "售票中",
+      "sessions": [
+        {
+          "id": 10,
+          "showId": 1,
+          "name": "Available 24/7",
+          "startTime": "2025-09-01T00:00:00",
+          "endTime": "2025-12-31T23:59:59",
+          "status": 1,
+          "statusName": "售票中",
+          "totalSeats": 65,
+          "soldSeats": 0,
+          "remainSeats": 65
+        }
+      ]
+    }
+  },
+  {
+    "test_name": "获取票档列表",
+    "success": true,
+    "message": "成功获取票档列表，共4个票档",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": [
+      {
+        "id": 1,
+        "showId": 1,
+        "sessionId": 1,
+        "name": "2小时时段",
+        "price": 30.0,
+        "totalCount": 800,
+        "remainCount": 800,
+        "limitCount": 4,
+        "status": 1,
+        "createTime": "2025-08-30T17:31:22",
+        "updateTime": "2025-09-01T03:57:27",
+        "isDeleted": 0
+      },
+      {
+        "id": 2,
+        "showId": 1,
+        "sessionId": 1,
+        "name": "4小时时段",
+        "price": 50.0,
+        "totalCount": 200,
+        "remainCount": 200,
+        "limitCount": 2,
+        "status": 1,
+        "createTime": "2025-08-30T17:31:22",
+        "updateTime": "2025-09-13T15:26:17",
+        "isDeleted": 0
+      },
+      {
+        "id": 3,
+        "showId": 1,
+        "sessionId": 1,
+        "name": "6小时时段",
+        "price": 70.0,
+        "totalCount": 600,
+        "remainCount": 600,
+        "limitCount": 4,
+        "status": 1,
+        "createTime": "2025-08-30T17:31:22",
+        "updateTime": "2025-09-01T03:57:27",
+        "isDeleted": 0
+      },
+      {
+        "id": 4,
+        "showId": 1,
+        "sessionId": 1,
+        "name": "通宵时段",
+        "price": 100.0,
+        "totalCount": 400,
+        "remainCount": 400,
+        "limitCount": 6,
+        "status": 1,
+        "createTime": "2025-08-30T17:31:22",
+        "updateTime": "2025-09-01T03:57:27",
+        "isDeleted": 0
+      }
+    ]
+  },
+  {
+    "test_name": "获取票档价格",
+    "success": true,
+    "message": "成功获取票档价格: 30.0元",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": 30.0,
+      "success": true
+    }
+  },
+  {
+    "test_name": "获取座位布局",
+    "success": false,
+    "message": "获取失败: 系统异常，请联系管理员",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "code": 500,
+      "message": "系统异常，请联系管理员",
+      "data": null,
+      "success": false
+    }
+  },
+  {
+    "test_name": "锁定座位",
+    "success": true,
+    "message": "成功锁定座位ID: 1",
+    "timestamp": "2025-09-14 19:22:21",
+    "response_data": {
+      "code": 200,
+      "message": "座位锁定成功",
+      "data": true,
+      "success": true
+    }
+  },
+  {
+    "test_name": "创建订单",
+    "success": false,
+    "message": "创建失败: 库存预减异常: 库存操作失败: 系统异常，请联系管理员",
+    "timestamp": "2025-09-14 19:22:24",
+    "response_data": {
+      "code": 500,
+      "message": "库存预减异常: 库存操作失败: 系统异常，请联系管理员",
+      "data": null,
+      "success": false
+    }
+  }
+]

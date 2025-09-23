@@ -1,0 +1,449 @@
+{
+  "test_summary": {
+    "total_tests": 19,
+    "passed_tests": 13,
+    "failed_tests": 6,
+    "success_rate": 68.42,
+    "avg_execution_time": 0.263,
+    "test_duration": 5.003,
+    "test_timestamp": "2025-09-21 21:25:57"
+  },
+  "test_categories": {
+    "jwt_authentication": [
+      {
+        "test_name": "JWT认证-用户登录",
+        "success": true,
+        "message": "登录成功，获取JWT token，用户ID: 2",
+        "timestamp": "2025-09-21 21:25:46",
+        "execution_time": 0.101,
+        "response_data": {
+          "token_length": 152,
+          "user_id": 2
+        }
+      },
+      {
+        "test_name": "JWT认证-token验证",
+        "success": true,
+        "message": "JWT token验证成功，可正常访问受保护接口",
+        "timestamp": "2025-09-21 21:25:48",
+        "execution_time": 0.183,
+        "response_data": null
+      }
+    ],
+    "normal_flow": [
+      {
+        "test_name": "订单创建-正常流程",
+        "success": true,
+        "message": "订单创建成功，订单号: 1969754942520561664",
+        "timestamp": "2025-09-21 21:25:49",
+        "execution_time": 0.391,
+        "response_data": {
+          "order_no": "1969754942520561664",
+          "order_data": {
+            "userId": 2,
+            "showId": 4,
+            "sessionId": 10,
+            "ticketId": 5,
+            "quantity": 2,
+            "bookingDate": "2025-09-22",
+            "contactPhone": "13800138000",
+            "remark": "自动化测试订单"
+          }
+        }
+      },
+      {
+        "test_name": "订单创建-步骤验证",
+        "success": false,
+        "message": "步骤验证失败: 3/7个步骤通过",
+        "timestamp": "2025-09-21 21:25:52",
+        "execution_time": 0,
+        "response_data": {
+          "success_steps": 3,
+          "total_steps": 7
+        }
+      }
+    ],
+    "exception_scenarios": [
+      {
+        "test_name": "无效演出ID测试",
+        "success": true,
+        "message": "正确拒绝了无效演出ID",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.417,
+        "response_data": null
+      },
+      {
+        "test_name": "无效票档ID测试",
+        "success": true,
+        "message": "正确拒绝了无效票档ID",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.304,
+        "response_data": null
+      },
+      {
+        "test_name": "无效数量测试",
+        "success": true,
+        "message": "正确拒绝了无效数量",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.015,
+        "response_data": null
+      },
+      {
+        "test_name": "库存不足测试",
+        "success": true,
+        "message": "正确处理了库存不足场景",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.169,
+        "response_data": null
+      },
+      {
+        "test_name": "未授权访问测试",
+        "success": true,
+        "message": "正确拒绝了未授权访问",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.007,
+        "response_data": null
+      },
+      {
+        "test_name": "缺少参数测试",
+        "success": true,
+        "message": "正确拒绝了缺少必要参数的请求",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0.016,
+        "response_data": null
+      },
+      {
+        "test_name": "异常场景测试",
+        "success": true,
+        "message": "所有6个异常场景测试通过",
+        "timestamp": "2025-09-21 21:25:54",
+        "execution_time": 0,
+        "response_data": {
+          "success_tests": 6,
+          "total_tests": 6
+        }
+      }
+    ],
+    "concurrent_tests": [
+      {
+        "test_name": "并发订单创建测试",
+        "success": false,
+        "message": "并发测试完成: 成功率 0.0%, 平均响应时间 0.000s",
+        "timestamp": "2025-09-21 21:25:56",
+        "execution_time": 1.243,
+        "response_data": {
+          "total_requests": 20,
+          "successful_requests": 0,
+          "failed_requests": 20,
+          "success_rate": 0.0,
+          "avg_response_time": 0,
+          "concurrent_users": 5
+        }
+      }
+    ],
+    "component_tests": [
+      {
+        "test_name": "分布式锁测试",
+        "success": false,
+        "message": "分布式锁机制异常，3/3个请求成功",
+        "timestamp": "2025-09-21 21:25:50",
+        "execution_time": 0.343,
+        "response_data": {
+          "success_requests": 3
+        }
+      },
+      {
+        "test_name": "参数校验测试",
+        "success": true,
+        "message": "参数校验正常，拒绝了无效参数",
+        "timestamp": "2025-09-21 21:25:50",
+        "execution_time": 0.016,
+        "response_data": null
+      },
+      {
+        "test_name": "票价信息获取测试",
+        "success": true,
+        "message": "成功获取票价信息，票档ID: 11",
+        "timestamp": "2025-09-21 21:25:50",
+        "execution_time": 0.017,
+        "response_data": 110.0
+      },
+      {
+        "test_name": "订单号生成测试",
+        "success": false,
+        "message": "订单号生成异常，只生成了0个唯一订单号",
+        "timestamp": "2025-09-21 21:25:52",
+        "execution_time": 1.387,
+        "response_data": []
+      },
+      {
+        "test_name": "Redis预减库存测试",
+        "success": true,
+        "message": "Redis库存查询正常，票档ID: 6",
+        "timestamp": "2025-09-21 21:25:52",
+        "execution_time": 0.019,
+        "response_data": {
+          "ticket": {
+            "id": 6,
+            "showId": 1,
+            "sessionId": 2,
+            "name": "4小时时段",
+            "price": 50.0,
+            "totalCount": 200,
+            "remainCount": 47,
+            "limitCount": 2,
+            "status": 1,
+            "createTime": "2025-08-30T17:31:22",
+            "updateTime": "2025-09-13T13:42:10",
+            "isDeleted": 0
+          },
+          "stock": {
+            "id": 6,
+            "ticketId": 6,
+            "totalStock": 200,
+            "lockedStock": 143,
+            "soldStock": 10,
+            "version": 89,
+            "createTime": "2025-08-30T17:31:22",
+            "updateTime": "2025-09-13T13:42:08",
+            "availableStock": 47
+          }
+        }
+      },
+      {
+        "test_name": "演出信息获取测试",
+        "success": false,
+        "message": "演出信息获取失败: HTTP 404",
+        "timestamp": "2025-09-21 21:25:52",
+        "execution_time": 0.028,
+        "response_data": "{\"timestamp\":\"2025-09-21T13:25:52.407+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/api/show/detail/4\"}"
+      },
+      {
+        "test_name": "订单持久化测试",
+        "success": false,
+        "message": "订单持久化失败",
+        "timestamp": "2025-09-21 21:25:52",
+        "execution_time": 0.347,
+        "response_data": null
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "test_name": "JWT认证-用户登录",
+      "success": true,
+      "message": "登录成功，获取JWT token，用户ID: 2",
+      "timestamp": "2025-09-21 21:25:46",
+      "execution_time": 0.101,
+      "response_data": {
+        "token_length": 152,
+        "user_id": 2
+      }
+    },
+    {
+      "test_name": "JWT认证-token验证",
+      "success": true,
+      "message": "JWT token验证成功，可正常访问受保护接口",
+      "timestamp": "2025-09-21 21:25:48",
+      "execution_time": 0.183,
+      "response_data": null
+    },
+    {
+      "test_name": "订单创建-正常流程",
+      "success": true,
+      "message": "订单创建成功，订单号: 1969754942520561664",
+      "timestamp": "2025-09-21 21:25:49",
+      "execution_time": 0.391,
+      "response_data": {
+        "order_no": "1969754942520561664",
+        "order_data": {
+          "userId": 2,
+          "showId": 4,
+          "sessionId": 10,
+          "ticketId": 5,
+          "quantity": 2,
+          "bookingDate": "2025-09-22",
+          "contactPhone": "13800138000",
+          "remark": "自动化测试订单"
+        }
+      }
+    },
+    {
+      "test_name": "分布式锁测试",
+      "success": false,
+      "message": "分布式锁机制异常，3/3个请求成功",
+      "timestamp": "2025-09-21 21:25:50",
+      "execution_time": 0.343,
+      "response_data": {
+        "success_requests": 3
+      }
+    },
+    {
+      "test_name": "参数校验测试",
+      "success": true,
+      "message": "参数校验正常，拒绝了无效参数",
+      "timestamp": "2025-09-21 21:25:50",
+      "execution_time": 0.016,
+      "response_data": null
+    },
+    {
+      "test_name": "票价信息获取测试",
+      "success": true,
+      "message": "成功获取票价信息，票档ID: 11",
+      "timestamp": "2025-09-21 21:25:50",
+      "execution_time": 0.017,
+      "response_data": 110.0
+    },
+    {
+      "test_name": "订单号生成测试",
+      "success": false,
+      "message": "订单号生成异常，只生成了0个唯一订单号",
+      "timestamp": "2025-09-21 21:25:52",
+      "execution_time": 1.387,
+      "response_data": []
+    },
+    {
+      "test_name": "Redis预减库存测试",
+      "success": true,
+      "message": "Redis库存查询正常，票档ID: 6",
+      "timestamp": "2025-09-21 21:25:52",
+      "execution_time": 0.019,
+      "response_data": {
+        "ticket": {
+          "id": 6,
+          "showId": 1,
+          "sessionId": 2,
+          "name": "4小时时段",
+          "price": 50.0,
+          "totalCount": 200,
+          "remainCount": 47,
+          "limitCount": 2,
+          "status": 1,
+          "createTime": "2025-08-30T17:31:22",
+          "updateTime": "2025-09-13T13:42:10",
+          "isDeleted": 0
+        },
+        "stock": {
+          "id": 6,
+          "ticketId": 6,
+          "totalStock": 200,
+          "lockedStock": 143,
+          "soldStock": 10,
+          "version": 89,
+          "createTime": "2025-08-30T17:31:22",
+          "updateTime": "2025-09-13T13:42:08",
+          "availableStock": 47
+        }
+      }
+    },
+    {
+      "test_name": "演出信息获取测试",
+      "success": false,
+      "message": "演出信息获取失败: HTTP 404",
+      "timestamp": "2025-09-21 21:25:52",
+      "execution_time": 0.028,
+      "response_data": "{\"timestamp\":\"2025-09-21T13:25:52.407+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/api/show/detail/4\"}"
+    },
+    {
+      "test_name": "订单持久化测试",
+      "success": false,
+      "message": "订单持久化失败",
+      "timestamp": "2025-09-21 21:25:52",
+      "execution_time": 0.347,
+      "response_data": null
+    },
+    {
+      "test_name": "订单创建-步骤验证",
+      "success": false,
+      "message": "步骤验证失败: 3/7个步骤通过",
+      "timestamp": "2025-09-21 21:25:52",
+      "execution_time": 0,
+      "response_data": {
+        "success_steps": 3,
+        "total_steps": 7
+      }
+    },
+    {
+      "test_name": "无效演出ID测试",
+      "success": true,
+      "message": "正确拒绝了无效演出ID",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.417,
+      "response_data": null
+    },
+    {
+      "test_name": "无效票档ID测试",
+      "success": true,
+      "message": "正确拒绝了无效票档ID",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.304,
+      "response_data": null
+    },
+    {
+      "test_name": "无效数量测试",
+      "success": true,
+      "message": "正确拒绝了无效数量",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.015,
+      "response_data": null
+    },
+    {
+      "test_name": "库存不足测试",
+      "success": true,
+      "message": "正确处理了库存不足场景",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.169,
+      "response_data": null
+    },
+    {
+      "test_name": "未授权访问测试",
+      "success": true,
+      "message": "正确拒绝了未授权访问",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.007,
+      "response_data": null
+    },
+    {
+      "test_name": "缺少参数测试",
+      "success": true,
+      "message": "正确拒绝了缺少必要参数的请求",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0.016,
+      "response_data": null
+    },
+    {
+      "test_name": "异常场景测试",
+      "success": true,
+      "message": "所有6个异常场景测试通过",
+      "timestamp": "2025-09-21 21:25:54",
+      "execution_time": 0,
+      "response_data": {
+        "success_tests": 6,
+        "total_tests": 6
+      }
+    },
+    {
+      "test_name": "并发订单创建测试",
+      "success": false,
+      "message": "并发测试完成: 成功率 0.0%, 平均响应时间 0.000s",
+      "timestamp": "2025-09-21 21:25:56",
+      "execution_time": 1.243,
+      "response_data": {
+        "total_requests": 20,
+        "successful_requests": 0,
+        "failed_requests": 20,
+        "success_rate": 0.0,
+        "avg_response_time": 0,
+        "concurrent_users": 5
+      }
+    }
+  ],
+  "test_config": {
+    "admin_username": "admin",
+    "admin_password": "123456",
+    "request_timeout": 10,
+    "concurrent_users": 5,
+    "concurrent_requests": 20,
+    "retry_times": 3
+  }
+}

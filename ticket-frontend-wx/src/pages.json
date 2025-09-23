@@ -1,0 +1,192 @@
+{
+  "pages": [
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationBarTitleText": "测试页面"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/show/list",
+      "style": {
+        "navigationBarTitleText": "演出列表",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/show/detail",
+      "style": {
+        "navigationBarTitleText": "演出详情",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/seat/select",
+      "style": {
+        "navigationBarTitleText": "选择座位",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/order/confirm",
+      "style": {
+        "navigationBarTitleText": "确认订单",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/order/list",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/register/index",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/payment/index",
+      "style": {
+        "navigationBarTitleText": "支付订单",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/payment/success",
+      "style": {
+        "navigationBarTitleText": "支付成功",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/ticket/detail",
+      "style": {
+        "navigationBarTitleText": "电子票",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "票务系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1890ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/show/list",
+        "text": "演出"
+      },
+      {
+        "pagePath": "pages/order/list",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "首页",
+        "path": "pages/index/index",
+        "query": ""
+      },
+      {
+        "name": "演出列表",
+        "path": "pages/show/list",
+        "query": ""
+      },
+      {
+        "name": "演出详情",
+        "path": "pages/show/detail",
+        "query": "id=1"
+      },
+      {
+        "name": "座位选择",
+        "path": "pages/seat/select",
+        "query": "showId=1&ticketTypeId=1"
+      },
+      {
+        "name": "订单确认",
+        "path": "pages/order/confirm",
+        "query": "showId=1&ticketTypeId=1&seats=[1,2,3]"
+      },
+      {
+        "name": "支付页面",
+        "path": "pages/payment/index",
+        "query": "orderId=ORDER123&amount=540.00"
+      },
+      {
+        "name": "支付成功",
+        "path": "pages/payment/success",
+        "query": "orderId=ORDER123&amount=540.00"
+      },
+      {
+        "name": "登录",
+        "path": "pages/login/index",
+        "query": ""
+      },
+      {
+        "name": "注册",
+        "path": "pages/register/index",
+        "query": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2">
+  <hashTree>
+    <!-- 测试计划配置 -->
+    <TestPlan testname="票务系统性能测试" enabled="true">
+      <elementProp name="TestPlan.arguments" elementType="Arguments" guiclass="ArgumentsPanel">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.arguments" elementType="Arguments" guiclass="ArgumentsPanel">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="base_url" elementType="Argument">
+            <stringProp name="Argument.name">base_url</stringProp>
+            <stringProp name="Argument.value">http://localhost:8000</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    
+    <!-- 用户注册登录测试组 -->
+    <ThreadGroup testname="用户注册登录测试组" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">100</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">60</stringProp>
+      <stringProp name="ThreadGroup.duration">300</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+      <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      
+      <!-- 用户注册请求 -->
+      <HTTPSamplerProxy testname="用户注册" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/user/register</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "username": "testuser${__Random(1,10000)}",
+            "password": "123456",
+            "email": "test${__Random(1,10000)}@example.com",
+            "phone": "138${__Random(10000000,99999999)}"
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+      
+      <!-- 用户登录请求 -->
+      <HTTPSamplerProxy testname="用户登录" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/user/login</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "username": "testuser${__Random(1,10000)}",
+            "password": "123456"
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+    </ThreadGroup>
+    
+    <!-- 订单创建测试组 -->
+    <ThreadGroup testname="订单创建测试组" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">50</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">30</stringProp>
+      <stringProp name="ThreadGroup.duration">600</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+      <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      
+      <!-- 订单创建请求 -->
+      <HTTPSamplerProxy testname="创建订单" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/order/create</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "userId": ${__Random(1,1000)},
+            "showId": 1,
+            "sessionId": 1,
+            "ticketId": ${__Random(1,10)},
+            "quantity": ${__Random(1,5)},
+            "totalPrice": ${__Random(100,1000)}
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+    </ThreadGroup>
+    
+    <!-- 支付流程测试组 -->
+    <ThreadGroup testname="支付流程测试组" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">100</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">30</stringProp>
+      <stringProp name="ThreadGroup.duration">600</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+      <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      
+      <!-- 支付订单请求 -->
+      <HTTPSamplerProxy testname="支付订单" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/order/pay</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "orderNo": "ORDER${__Random(100000,999999)}",
+            "payType": ${__Random(1,3)}
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+    </ThreadGroup>
+    
+    <!-- 库存查询测试组 -->
+    <ThreadGroup testname="库存查询测试组" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">200</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+      <stringProp name="ThreadGroup.duration">300</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+      <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      
+      <!-- 库存查询请求 -->
+      <HTTPSamplerProxy testname="查询库存" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/show/stock/${__Random(1,10)}</stringProp>
+        <stringProp name="HTTPSampler.method">GET</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+      </HTTPSamplerProxy>
+      
+      <!-- 座位查询请求 -->
+      <HTTPSamplerProxy testname="查询座位" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/show/seats/${__Random(1,10)}</stringProp>
+        <stringProp name="HTTPSampler.method">GET</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+      </HTTPSamplerProxy>
+    </ThreadGroup>
+    
+    <!-- 综合业务流程测试组 -->
+    <ThreadGroup testname="综合业务流程测试组" enabled="true">
+      <stringProp name="ThreadGroup.num_threads">50</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">60</stringProp>
+      <stringProp name="ThreadGroup.duration">900</stringProp>
+      <stringProp name="ThreadGroup.delay">0</stringProp>
+      <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      
+      <!-- 完整购票流程 -->
+      <HTTPSamplerProxy testname="1-用户登录" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/user/login</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "username": "testuser${__Random(1,1000)}",
+            "password": "123456"
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+      
+      <HTTPSamplerProxy testname="2-查询演出" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/show/list</stringProp>
+        <stringProp name="HTTPSampler.method">GET</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+      </HTTPSamplerProxy>
+      
+      <HTTPSamplerProxy testname="3-查询库存" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/show/stock/${__Random(1,5)}</stringProp>
+        <stringProp name="HTTPSampler.method">GET</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+      </HTTPSamplerProxy>
+      
+      <HTTPSamplerProxy testname="4-创建订单" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/order/create</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "userId": ${__Random(1,1000)},
+            "showId": ${__Random(1,5)},
+            "sessionId": 1,
+            "ticketId": ${__Random(1,10)},
+            "quantity": ${__Random(1,3)},
+            "totalPrice": ${__Random(100,500)}
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+      
+      <HTTPSamplerProxy testname="5-支付订单" enabled="true">
+        <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+        <stringProp name="HTTPSampler.port">8000</stringProp>
+        <stringProp name="HTTPSampler.path">/api/order/pay</stringProp>
+        <stringProp name="HTTPSampler.method">POST</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+        <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+        <stringProp name="HTTPSampler.postBodyRaw">
+          {
+            "orderNo": "ORDER${__Random(100000,999999)}",
+            "payType": ${__Random(1,3)}
+          }
+        </stringProp>
+      </HTTPSamplerProxy>
+    </ThreadGroup>
+    
+    <!-- 监听器配置 -->
+    <ResultCollector testname="查看结果树" enabled="true">
+      <boolProp name="ResultCollector.error_logging">false</boolProp>
+      <objProp>
+        <name>saveConfig</name>
+        <value class="SampleSaveConfiguration">
+          <time>true</time>
+          <latency>true</latency>
+          <timestamp>true</timestamp>
+          <success>true</success>
+          <label>true</label>
+          <code>true</code>
+          <message>true</message>
+          <threadName>true</threadName>
+          <dataType>true</dataType>
+          <encoding>false</encoding>
+          <assertions>true</assertions>
+          <subresults>true</subresults>
+          <responseData>false</responseData>
+          <samplerData>false</samplerData>
+          <xml>false</xml>
+          <fieldNames>true</fieldNames>
+          <responseHeaders>false</responseHeaders>
+          <requestHeaders>false</requestHeaders>
+          <responseDataOnError>false</responseDataOnError>
+          <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+          <assertionsResultsToSave>0</assertionsResultsToSave>
+          <bytes>true</bytes>
+          <sentBytes>true</sentBytes>
+          <url>true</url>
+          <threadCounts>true</threadCounts>
+          <idleTime>true</idleTime>
+          <connectTime>true</connectTime>
+        </value>
+      </objProp>
+      <stringProp name="filename">test-results.jtl</stringProp>
+    </ResultCollector>
+    
+    <ResultCollector testname="聚合报告" enabled="true">
+      <boolProp name="ResultCollector.error_logging">false</boolProp>
+      <objProp>
+        <name>saveConfig</name>
+        <value class="SampleSaveConfiguration">
+          <time>true</time>
+          <latency>true</latency>
+          <timestamp>true</timestamp>
+          <success>true</success>
+          <label>true</label>
+          <code>true</code>
+          <message>true</message>
+          <threadName>true</threadName>
+          <dataType>true</dataType>
+          <encoding>false</encoding>
+          <assertions>true</assertions>
+          <subresults>true</subresults>
+          <responseData>false</responseData>
+          <samplerData>false</samplerData>
+          <xml>false</xml>
+          <fieldNames>true</fieldNames>
+          <responseHeaders>false</responseHeaders>
+          <requestHeaders>false</requestHeaders>
+          <responseDataOnError>false</responseDataOnError>
+          <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+          <assertionsResultsToSave>0</assertionsResultsToSave>
+          <bytes>true</bytes>
+          <sentBytes>true</sentBytes>
+          <url>true</url>
+          <threadCounts>true</threadCounts>
+          <idleTime>true</idleTime>
+          <connectTime>true</connectTime>
+        </value>
+      </objProp>
+      <stringProp name="filename">aggregate-report.jtl</stringProp>
+    </ResultCollector>
+  </hashTree>
+</jmeterTestPlan>

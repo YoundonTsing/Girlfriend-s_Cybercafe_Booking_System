@@ -1,0 +1,210 @@
+# Java编译文件
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+build/
+
+# IDE文件
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+*.log.*
+*.gz
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# 环境配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Spring Boot
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# 错误转储文件
+hs_err_pid*.log
+hs_err_pid*.mdmp
+replay_pid*.log
+
+# 项目特定文件
+login.json
+monitoring_fix_report.json
+*.html
+*.config.json
+
+# 编译和构建产物
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+.dockerignore
+Dockerfile.bak
+
+# 测试文件
+test-results/
+*.test
+
+# 临时SQL文件
+temp_*.sql
+
+# 批处理文件
+*.bat
+*.cmd
+
+# 开发工具生成的文件
+.codebuddy/
+
+# 安全相关文件
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+secrets/
+credentials/
+
+# 性能分析文件
+*.hprof
+*.prof
+*.jfr
+
+# 文档生成文件
+docs/build/
+site/
+
+# 缓存目录
+.cache/
+.npm/
+.yarn/
+
+# 操作系统特定
+*.lnk
+desktop.ini
+
+# JetBrains IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse IDE
+.metadata
+.recommenders
+.settings/
+.project
+.classpath
+bin/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# 微信小程序
+unpackage/
+.hbuilderx/
+
+# 前端构建产物
+dist/
+build/
+.nuxt/
+.next/
+.output/
+
+# 测试报告
+test-output/
+allure-results/
+allure-report/
+
+# 监控和日志
+*.pid
+nohup.out
+gc.log*
+
+# 数据文件
+*.csv
+*.xlsx
+*.xls
+data/
+uploads/
+
+# 配置文件备份
+*.conf.bak
+*.properties.bak
+*.yml.bak
+*.yaml.bak

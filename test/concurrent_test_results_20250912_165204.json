@@ -1,0 +1,5069 @@
+{
+  "test_info": {
+    "start_time": "2025-09-12T16:51:14.985925",
+    "end_time": "2025-09-12T16:52:04.471499",
+    "concurrent_users": 230,
+    "ticket_id": 2,
+    "max_quantity_per_user": 3
+  },
+  "results": [
+    {
+      "user_id": 1,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 48.40731620788574,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23437.195539474487,
+          "success": true
+        }
+      ],
+      "total_time": 24604.55822944641,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 2,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 172.53446578979492,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23572.587490081787,
+          "success": true
+        }
+      ],
+      "total_time": 24492.59328842163,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 3,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 280.66301345825195,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23320.271730422974,
+          "success": true
+        }
+      ],
+      "total_time": 25051.990270614624,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 4,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 58.652639389038086,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23280.960083007812,
+          "success": true
+        }
+      ],
+      "total_time": 24941.43843650818,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 5,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 1055.1116466522217,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23301.048755645752,
+          "success": true
+        }
+      ],
+      "total_time": 25596.638202667236,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 6,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 830.2886486053467,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23342.907190322876,
+          "success": true
+        }
+      ],
+      "total_time": 24933.486461639404,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 7,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 720.0133800506592,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23477.779865264893,
+          "success": true
+        }
+      ],
+      "total_time": 24712.651014328003,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 8,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 389.41216468811035,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23266.074419021606,
+          "success": true
+        }
+      ],
+      "total_time": 25496.643781661987,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 9,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 497.70379066467285,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23475.84557533264,
+          "success": true
+        }
+      ],
+      "total_time": 24822.0272064209,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 10,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 941.558837890625,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23150.182008743286,
+          "success": true
+        }
+      ],
+      "total_time": 25160.93397140503,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 11,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 615.0200366973877,
+          "success": true
+        },
+        {
+          "action": "Error",
+          "error": "",
+          "success": false
+        }
+      ],
+      "total_time": 32975.09956359863,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 12,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 1620.4311847686768,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23238.64984512329,
+          "success": true
+        }
+      ],
+      "total_time": 26145.062685012817,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 13,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 1163.0616188049316,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23184.15141105652,
+          "success": true
+        }
+      ],
+      "total_time": 25704.31661605835,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 14,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 1273.1082439422607,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23206.393480300903,
+          "success": true
+        }
+      ],
+      "total_time": 25267.035007476807,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 15,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 1510.4990005493164,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23212.877988815308,
+          "success": true
+        }
+      ],
+      "total_time": 26253.287076950073,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 16,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 3305.375337600708,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23359.150886535645,
+          "success": true
+        }
+      ],
+      "total_time": 28245.392322540283,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 17,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 3522.042989730835,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23271.90113067627,
+          "success": true
+        }
+      ],
+      "total_time": 27466.973781585693,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 18,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 3413.864850997925,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23099.01237487793,
+          "success": true
+        }
+      ],
+      "total_time": 27033.276319503784,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 19,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 3633.9027881622314,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23450.159788131714,
+          "success": true
+        }
+      ],
+      "total_time": 27907.246112823486,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 20,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 1383.2907676696777,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23307.119131088257,
+          "success": true
+        }
+      ],
+      "total_time": 26033.206462860107,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 21,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 1495.5778121948242,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23070.040225982666,
+          "success": true
+        }
+      ],
+      "total_time": 26471.811532974243,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 22,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 2059.596300125122,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23194.536685943604,
+          "success": true
+        }
+      ],
+      "total_time": 25918.979167938232,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 23,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 1836.8949890136719,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23124.250888824463,
+          "success": true
+        }
+      ],
+      "total_time": 25811.513423919678,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 24,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 3642.404317855835,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23316.070079803467,
+          "success": true
+        }
+      ],
+      "total_time": 28129.842519760132,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 25,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 3753.697633743286,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23305.619478225708,
+          "success": true
+        }
+      ],
+      "total_time": 28351.027727127075,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 26,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 3865.0550842285156,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23304.28171157837,
+          "success": true
+        }
+      ],
+      "total_time": 28460.487842559814,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 27,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 3978.4135818481445,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23270.257711410522,
+          "success": true
+        }
+      ],
+      "total_time": 29240.281105041504,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 28,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 1728.0282974243164,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23171.576261520386,
+          "success": true
+        }
+      ],
+      "total_time": 26361.894130706787,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 29,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 1946.4054107666016,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23184.897661209106,
+          "success": true
+        }
+      ],
+      "total_time": 26800.325870513916,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 30,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 2169.968366622925,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23179.638147354126,
+          "success": true
+        }
+      ],
+      "total_time": 26580.84225654602,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 31,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 2276.8890857696533,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23238.054513931274,
+          "success": true
+        }
+      ],
+      "total_time": 26908.517122268677,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 32,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 4102.825880050659,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23234.379053115845,
+          "success": true
+        }
+      ],
+      "total_time": 28015.97023010254,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 33,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 4201.898097991943,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23314.976930618286,
+          "success": true
+        }
+      ],
+      "total_time": 28681.5242767334,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 34,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 4309.93914604187,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23268.168210983276,
+          "success": true
+        }
+      ],
+      "total_time": 28570.437908172607,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 35,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 4419.206857681274,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23162.56356239319,
+          "success": true
+        }
+      ],
+      "total_time": 29130.928993225098,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 36,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 2382.0321559906006,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23108.01911354065,
+          "success": true
+        }
+      ],
+      "total_time": 27245.67937850952,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 37,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 2490.8289909362793,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23378.591299057007,
+          "success": true
+        }
+      ],
+      "total_time": 27680.98735809326,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 38,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 2604.4795513153076,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23384.239196777344,
+          "success": true
+        }
+      ],
+      "total_time": 27790.18807411194,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 39,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 2724.4019508361816,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23111.91439628601,
+          "success": true
+        }
+      ],
+      "total_time": 26689.68391418457,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 40,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 4753.1468868255615,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23077.0742893219,
+          "success": true
+        }
+      ],
+      "total_time": 29675.113201141357,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 41,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 4527.762889862061,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23429.588079452515,
+          "success": true
+        }
+      ],
+      "total_time": 28899.402618408203,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 42,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 4638.617277145386,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23371.534824371338,
+          "success": true
+        }
+      ],
+      "total_time": 29008.858919143677,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 43,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 4969.4342613220215,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23335.19983291626,
+          "success": true
+        }
+      ],
+      "total_time": 29347.13578224182,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 44,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 2852.288007736206,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23236.965894699097,
+          "success": true
+        }
+      ],
+      "total_time": 27018.85724067688,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 45,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 2963.88578414917,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23164.906978607178,
+          "success": true
+        }
+      ],
+      "total_time": 27355.13472557068,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 46,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 3073.702812194824,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23166.64171218872,
+          "success": true
+        }
+      ],
+      "total_time": 27138.025760650635,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 47,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 3187.045097351074,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23316.595315933228,
+          "success": true
+        }
+      ],
+      "total_time": 27569.880723953247,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 48,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 4860.703229904175,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23400.13551712036,
+          "success": true
+        }
+      ],
+      "total_time": 28789.80588912964,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 49,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 5078.275680541992,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23194.82946395874,
+          "success": true
+        }
+      ],
+      "total_time": 30001.195907592773,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 50,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 5190.934419631958,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23078.05323600769,
+          "success": true
+        }
+      ],
+      "total_time": 29564.019441604614,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 51,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 5107.578754425049,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23152.565002441406,
+          "success": true
+        }
+      ],
+      "total_time": 28922.695875167847,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 52,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 5216.811418533325,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23143.27907562256,
+          "success": true
+        }
+      ],
+      "total_time": 30024.229764938354,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 53,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 5328.581809997559,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23281.367301940918,
+          "success": true
+        }
+      ],
+      "total_time": 29258.37779045105,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 54,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 5439.607858657837,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23068.641662597656,
+          "success": true
+        }
+      ],
+      "total_time": 29585.127353668213,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 55,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 5671.123504638672,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23176.633834838867,
+          "success": true
+        }
+      ],
+      "total_time": 30243.716716766357,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 56,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 5782.949447631836,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23116.86062812805,
+          "success": true
+        }
+      ],
+      "total_time": 29694.03648376465,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 57,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 5551.609039306641,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23455.623626708984,
+          "success": true
+        }
+      ],
+      "total_time": 30572.818279266357,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 58,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 5561.862468719482,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23193.77613067627,
+          "success": true
+        }
+      ],
+      "total_time": 30132.266521453857,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 59,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 6441.602468490601,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23452.15129852295,
+          "success": true
+        }
+      ],
+      "total_time": 30900.30837059021,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 60,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 8318.783283233643,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23305.721521377563,
+          "success": true
+        }
+      ],
+      "total_time": 32887.5458240509,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 61,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 5889.848709106445,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23411.08512878418,
+          "success": true
+        }
+      ],
+      "total_time": 30676.424503326416,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 62,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 9097.038269042969,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23261.075735092163,
+          "success": true
+        }
+      ],
+      "total_time": 33100.849628448486,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 63,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 6109.52353477478,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23141.374826431274,
+          "success": true
+        }
+      ],
+      "total_time": 29908.814907073975,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 64,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 6767.4400806427,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23483.108043670654,
+          "success": true
+        }
+      ],
+      "total_time": 31014.038801193237,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 65,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 6658.363103866577,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23558.322429656982,
+          "success": true
+        }
+      ],
+      "total_time": 31003.73125076294,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 66,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 6329.413652420044,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23287.305116653442,
+          "success": true
+        }
+      ],
+      "total_time": 30349.3549823761,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 67,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 6874.816656112671,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23444.602251052856,
+          "success": true
+        }
+      ],
+      "total_time": 31478.116989135742,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 68,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7092.138290405273,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23413.930892944336,
+          "success": true
+        }
+      ],
+      "total_time": 31253.34906578064,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 69,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 6218.52707862854,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23370.147705078125,
+          "success": true
+        }
+      ],
+      "total_time": 30784.6519947052,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 70,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 7421.130180358887,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23128.328800201416,
+          "success": true
+        }
+      ],
+      "total_time": 31805.991888046265,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 71,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7530.280351638794,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23300.041675567627,
+          "success": true
+        }
+      ],
+      "total_time": 32028.975248336792,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 72,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7640.105724334717,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23382.362365722656,
+          "success": true
+        }
+      ],
+      "total_time": 32774.078369140625,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 73,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 6980.728626251221,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23277.571439743042,
+          "success": true
+        }
+      ],
+      "total_time": 31587.71562576294,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 74,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7198.903322219849,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23301.957845687866,
+          "success": true
+        }
+      ],
+      "total_time": 31695.02282142639,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 75,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7308.2115650177,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23412.582397460938,
+          "success": true
+        }
+      ],
+      "total_time": 31360.645294189453,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 76,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 8092.1595096588135,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23283.644914627075,
+          "success": true
+        }
+      ],
+      "total_time": 32251.24740600586,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 77,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7647.607803344727,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23222.981691360474,
+          "success": true
+        }
+      ],
+      "total_time": 31916.165828704834,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 78,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 7756.942272186279,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23262.49098777771,
+          "success": true
+        }
+      ],
+      "total_time": 32574.544191360474,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 79,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 7868.917465209961,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23234.861373901367,
+          "success": true
+        }
+      ],
+      "total_time": 32137.856245040894,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 80,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 7981.224775314331,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23269.992113113403,
+          "success": true
+        }
+      ],
+      "total_time": 32466.135263442993,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 81,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 5995.078802108765,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23593.302965164185,
+          "success": true
+        }
+      ],
+      "total_time": 31119.269371032715,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 82,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 8201.499938964844,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23204.48637008667,
+          "success": true
+        }
+      ],
+      "total_time": 32357.60760307312,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 83,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 8421.39720916748,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23194.93341445923,
+          "success": true
+        }
+      ],
+      "total_time": 33438.283920288086,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 84,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 8647.339344024658,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23328.60040664673,
+          "success": true
+        }
+      ],
+      "total_time": 33204.82635498047,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 85,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 8529.693603515625,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23281.930923461914,
+          "success": true
+        }
+      ],
+      "total_time": 32986.04416847229,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 86,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 8757.544755935669,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23086.661100387573,
+          "success": true
+        }
+      ],
+      "total_time": 33658.22982788086,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 87,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 8869.384288787842,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23243.561029434204,
+          "success": true
+        }
+      ],
+      "total_time": 33990.57626724243,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 88,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 8980.63063621521,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23393.043041229248,
+          "success": true
+        }
+      ],
+      "total_time": 34315.77396392822,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 89,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 6540.477991104126,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23368.08180809021,
+          "success": true
+        }
+      ],
+      "total_time": 30453.05061340332,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 90,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 9199.33271408081,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23196.975469589233,
+          "success": true
+        }
+      ],
+      "total_time": 33217.14091300964,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 91,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 9310.42742729187,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23132.662773132324,
+          "success": true
+        }
+      ],
+      "total_time": 33877.42805480957,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 92,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 9424.39079284668,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23116.992712020874,
+          "success": true
+        }
+      ],
+      "total_time": 33325.347900390625,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 93,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 9535.851240158081,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23116.251230239868,
+          "success": true
+        }
+      ],
+      "total_time": 33767.17281341553,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 94,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 9646.846055984497,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23098.489999771118,
+          "success": true
+        }
+      ],
+      "total_time": 33546.868324279785,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 95,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 9758.020401000977,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23289.249181747437,
+          "success": true
+        }
+      ],
+      "total_time": 34099.52425956726,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 96,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 9987.222671508789,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23235.683917999268,
+          "success": true
+        }
+      ],
+      "total_time": 34647.271156311035,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 97,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 9765.376806259155,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23313.210010528564,
+          "success": true
+        }
+      ],
+      "total_time": 34427.120208740234,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 98,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 9874.58610534668,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23361.334562301636,
+          "success": true
+        }
+      ],
+      "total_time": 34206.31289482117,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 99,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 10097.769260406494,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23402.050971984863,
+          "success": true
+        }
+      ],
+      "total_time": 34536.86213493347,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 100,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 10207.306385040283,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23227.98180580139,
+          "success": true
+        }
+      ],
+      "total_time": 34976.32312774658,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 101,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 10139.132022857666,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23255.25403022766,
+          "success": true
+        }
+      ],
+      "total_time": 34577.62312889099,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 102,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 10252.469062805176,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23345.33715248108,
+          "success": true
+        }
+      ],
+      "total_time": 34688.40789794922,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 103,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 10361.78731918335,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23246.734857559204,
+          "success": true
+        }
+      ],
+      "total_time": 34907.30857849121,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 104,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 14122.161388397217,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23234.133005142212,
+          "success": true
+        }
+      ],
+      "total_time": 38588.613986968994,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 105,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 10582.034826278687,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23160.454034805298,
+          "success": true
+        }
+      ],
+      "total_time": 35144.29950714111,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 106,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 10471.700429916382,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23369.786500930786,
+          "success": true
+        }
+      ],
+      "total_time": 35130.41377067566,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 107,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 13131.409883499146,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23211.382627487183,
+          "success": true
+        }
+      ],
+      "total_time": 37372.32184410095,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 108,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 13238.522291183472,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23465.56806564331,
+          "success": true
+        }
+      ],
+      "total_time": 37259.10258293152,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 109,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 10693.008184432983,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23012.308359146118,
+          "success": true
+        }
+      ],
+      "total_time": 35481.056213378906,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 110,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 10914.05701637268,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23291.6157245636,
+          "success": true
+        }
+      ],
+      "total_time": 36036.04006767273,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 111,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 11134.034156799316,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23261.55161857605,
+          "success": true
+        }
+      ],
+      "total_time": 35020.92432975769,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 112,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 11024.778127670288,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23247.478723526,
+          "success": true
+        }
+      ],
+      "total_time": 35255.39469718933,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 113,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 13345.829486846924,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23170.432329177856,
+          "success": true
+        }
+      ],
+      "total_time": 38254.79316711426,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 114,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 13453.03463935852,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23296.410083770752,
+          "success": true
+        }
+      ],
+      "total_time": 38032.43684768677,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 115,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 13562.569618225098,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23267.637491226196,
+          "success": true
+        }
+      ],
+      "total_time": 37919.94595527649,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 116,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 13673.702716827393,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23254.029512405396,
+          "success": true
+        }
+      ],
+      "total_time": 38696.05350494385,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 117,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 11243.99471282959,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23267.425537109375,
+          "success": true
+        }
+      ],
+      "total_time": 35924.95822906494,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 118,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 11354.47645187378,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23361.16623878479,
+          "success": true
+        }
+      ],
+      "total_time": 36369.84825134277,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 119,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 11572.852611541748,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23174.148082733154,
+          "success": true
+        }
+      ],
+      "total_time": 35813.058614730835,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 120,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 11463.894844055176,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23067.98005104065,
+          "success": true
+        }
+      ],
+      "total_time": 35589.409828186035,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 121,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 13780.413627624512,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23309.738159179688,
+          "success": true
+        }
+      ],
+      "total_time": 38805.31668663025,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 122,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 13790.678262710571,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23300.702571868896,
+          "success": true
+        }
+      ],
+      "total_time": 37804.93259429932,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 123,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 13900.684595108032,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23354.997634887695,
+          "success": true
+        }
+      ],
+      "total_time": 38140.76542854309,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 124,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 14008.295059204102,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23257.714986801147,
+          "success": true
+        }
+      ],
+      "total_time": 38914.098024368286,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 125,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 11685.731887817383,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23323.206424713135,
+          "success": true
+        }
+      ],
+      "total_time": 36810.12845039368,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 126,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 11696.475505828857,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22978.320121765137,
+          "success": true
+        }
+      ],
+      "total_time": 35366.25051498413,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 127,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 11918.5049533844,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23288.34319114685,
+          "success": true
+        }
+      ],
+      "total_time": 36145.800828933716,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 128,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 11807.04665184021,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23218.727111816406,
+          "success": true
+        }
+      ],
+      "total_time": 36701.81655883789,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 129,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 10802.663326263428,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23120.74637413025,
+          "success": true
+        }
+      ],
+      "total_time": 35698.76790046692,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 130,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 14228.986263275146,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23400.431156158447,
+          "success": true
+        }
+      ],
+      "total_time": 39133.60095024109,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 131,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 14337.212085723877,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23139.22643661499,
+          "success": true
+        }
+      ],
+      "total_time": 39359.80010032654,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 132,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 14449.235677719116,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23489.00842666626,
+          "success": true
+        }
+      ],
+      "total_time": 39800.429344177246,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 133,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 12025.41208267212,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23410.125732421875,
+          "success": true
+        }
+      ],
+      "total_time": 36919.498920440674,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 134,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 12135.196447372437,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23468.334436416626,
+          "success": true
+        }
+      ],
+      "total_time": 36475.21114349365,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 135,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 12249.706983566284,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23350.799322128296,
+          "success": true
+        }
+      ],
+      "total_time": 36255.67102432251,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 136,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 12357.855081558228,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23283.291578292847,
+          "success": true
+        }
+      ],
+      "total_time": 37585.31641960144,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 137,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 14558.508157730103,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23203.19962501526,
+          "success": true
+        }
+      ],
+      "total_time": 38474.698066711426,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 138,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 14671.73147201538,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23145.4439163208,
+          "success": true
+        }
+      ],
+      "total_time": 38363.28172683716,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 139,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 14783.564329147339,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23311.9900226593,
+          "success": true
+        }
+      ],
+      "total_time": 39020.25032043457,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 140,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 15002.411127090454,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23211.49444580078,
+          "success": true
+        }
+      ],
+      "total_time": 39470.09062767029,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 141,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 12467.55313873291,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23467.73886680603,
+          "success": true
+        }
+      ],
+      "total_time": 37242.18964576721,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 142,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 12685.367345809937,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23371.947288513184,
+          "success": true
+        }
+      ],
+      "total_time": 37692.34251976013,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 143,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 12575.818061828613,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23595.62611579895,
+          "success": true
+        }
+      ],
+      "total_time": 37133.90231132507,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 144,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 12794.390201568604,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23246.477365493774,
+          "success": true
+        }
+      ],
+      "total_time": 36585.65878868103,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 145,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 14893.038749694824,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23613.2333278656,
+          "success": true
+        }
+      ],
+      "total_time": 40458.04286003113,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 146,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 15109.575033187866,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23321.089029312134,
+          "success": true
+        }
+      ],
+      "total_time": 39579.68521118164,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 147,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 15218.421936035156,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23447.84426689148,
+          "success": true
+        }
+      ],
+      "total_time": 39240.38648605347,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 148,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 15327.717065811157,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23246.37198448181,
+          "success": true
+        }
+      ],
+      "total_time": 39350.00157356262,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 149,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 12902.64916419983,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23225.447177886963,
+          "success": true
+        }
+      ],
+      "total_time": 37473.673820495605,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 150,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 13012.21227645874,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23488.710165023804,
+          "success": true
+        }
+      ],
+      "total_time": 37025.306940078735,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 151,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 15245.282173156738,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23307.154893875122,
+          "success": true
+        }
+      ],
+      "total_time": 39825.32334327698,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 152,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 15353.654384613037,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23379.42361831665,
+          "success": true
+        }
+      ],
+      "total_time": 39496.86288833618,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 153,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 15460.129737854004,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23509.07564163208,
+          "success": true
+        }
+      ],
+      "total_time": 40043.47491264343,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 154,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 15695.005893707275,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23474.37834739685,
+          "success": true
+        }
+      ],
+      "total_time": 40483.110427856445,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 155,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 15805.061101913452,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23271.554231643677,
+          "success": true
+        }
+      ],
+      "total_time": 40703.64260673523,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 156,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 15567.93212890625,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23417.376279830933,
+          "success": true
+        }
+      ],
+      "total_time": 39933.25662612915,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 157,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 16248.188018798828,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23260.164499282837,
+          "success": true
+        }
+      ],
+      "total_time": 41034.56163406372,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 158,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 15685.389757156372,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23296.984672546387,
+          "success": true
+        }
+      ],
+      "total_time": 39714.1215801239,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 159,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 15912.608861923218,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23640.114545822144,
+          "success": true
+        }
+      ],
+      "total_time": 40369.81654167175,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 160,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 16684.760808944702,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23288.711309432983,
+          "success": true
+        }
+      ],
+      "total_time": 40809.5326423645,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 161,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 16356.644630432129,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23167.429447174072,
+          "success": true
+        }
+      ],
+      "total_time": 40918.8117980957,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 162,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 16131.574630737305,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23231.453895568848,
+          "success": true
+        }
+      ],
+      "total_time": 41255.11169433594,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 163,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 16903.89108657837,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23367.29407310486,
+          "success": true
+        }
+      ],
+      "total_time": 41138.68689537048,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 164,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 16464.34998512268,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23362.891674041748,
+          "success": true
+        }
+      ],
+      "total_time": 41801.28884315491,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 165,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 16020.234823226929,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23576.569318771362,
+          "success": true
+        }
+      ],
+      "total_time": 40149.71899986267,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 166,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 16571.9473361969,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23387.299299240112,
+          "success": true
+        }
+      ],
+      "total_time": 40586.50326728821,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 167,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 17462.07356452942,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23134.793043136597,
+          "success": true
+        }
+      ],
+      "total_time": 41471.05097770691,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 168,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 17012.09855079651,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23249.093532562256,
+          "success": true
+        }
+      ],
+      "total_time": 42015.321254730225,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 169,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17122.435808181763,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23300.909757614136,
+          "success": true
+        }
+      ],
+      "total_time": 42125.1904964447,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 170,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 18554.118156433105,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22961.79509162903,
+          "success": true
+        }
+      ],
+      "total_time": 42452.33225822449,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 171,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 17351.96852684021,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23174.842834472656,
+          "success": true
+        }
+      ],
+      "total_time": 42342.533588409424,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 172,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 16790.329217910767,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23361.566305160522,
+          "success": true
+        }
+      ],
+      "total_time": 41245.4297542572,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 173,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17574.580907821655,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23241.387367248535,
+          "success": true
+        }
+      ],
+      "total_time": 41905.412435531616,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 174,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17900.47597885132,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23273.273944854736,
+          "success": true
+        }
+      ],
+      "total_time": 41689.53251838684,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 175,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17684.056997299194,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23139.34350013733,
+          "success": true
+        }
+      ],
+      "total_time": 41362.4427318573,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 176,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 18223.09923171997,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22928.02596092224,
+          "success": true
+        }
+      ],
+      "total_time": 43004.28867340088,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 177,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 18113.730430603027,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22839.723825454712,
+          "success": true
+        }
+      ],
+      "total_time": 42673.471450805664,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 178,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17792.527675628662,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23180.83429336548,
+          "success": true
+        }
+      ],
+      "total_time": 41579.240798950195,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 179,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 18334.148645401,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22846.214294433594,
+          "success": true
+        }
+      ],
+      "total_time": 42784.589529037476,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 180,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 17942.39044189453,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23371.98829650879,
+          "success": true
+        }
+      ],
+      "total_time": 42230.66306114197,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 181,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 18443.400382995605,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22916.66078567505,
+          "success": true
+        }
+      ],
+      "total_time": 43227.15210914612,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 182,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 18881.64973258972,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23002.574682235718,
+          "success": true
+        }
+      ],
+      "total_time": 43479.626178741455,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 183,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 18661.75866127014,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22968.28031539917,
+          "success": true
+        }
+      ],
+      "total_time": 42562.6118183136,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 184,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 19103.766679763794,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22960.94298362732,
+          "success": true
+        }
+      ],
+      "total_time": 43116.416692733765,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 185,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 18992.748022079468,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22996.40655517578,
+          "success": true
+        }
+      ],
+      "total_time": 43703.93204689026,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 186,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 18769.558668136597,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22962.334394454956,
+          "success": true
+        }
+      ],
+      "total_time": 43336.60340309143,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 187,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 19214.038848876953,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 4174.0288734436035,
+          "success": true
+        }
+      ],
+      "total_time": 24775.86030960083,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 188,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 19323.22120666504,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22866.288900375366,
+          "success": true
+        }
+      ],
+      "total_time": 42892.15540885925,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 189,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 19766.491174697876,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23038.281679153442,
+          "success": true
+        }
+      ],
+      "total_time": 44365.78345298767,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 190,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 19434.13019180298,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22961.076259613037,
+          "success": true
+        }
+      ],
+      "total_time": 43591.21084213257,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 191,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 19544.800996780396,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 23052.0498752594,
+          "success": true
+        }
+      ],
+      "total_time": 43812.12520599365,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 192,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 19654.26468849182,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22971.892595291138,
+          "success": true
+        }
+      ],
+      "total_time": 43370.049238204956,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 193,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 19878.647327423096,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22843.714714050293,
+          "success": true
+        }
+      ],
+      "total_time": 44145.028591156006,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 194,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 19989.802598953247,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23042.096376419067,
+          "success": true
+        }
+      ],
+      "total_time": 44693.67337226868,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 195,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 20100.233793258667,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22971.243143081665,
+          "success": true
+        }
+      ],
+      "total_time": 43923.48599433899,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 196,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 20111.286163330078,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22972.843885421753,
+          "success": true
+        }
+      ],
+      "total_time": 44033.82873535156,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 197,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 20220.494747161865,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22972.2740650177,
+          "success": true
+        }
+      ],
+      "total_time": 44805.27091026306,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 198,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 20551.17392539978,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23026.59773826599,
+          "success": true
+        }
+      ],
+      "total_time": 45470.76725959778,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 199,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 20332.59391784668,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22952.829360961914,
+          "success": true
+        }
+      ],
+      "total_time": 44254.14180755615,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 200,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 20443.4072971344,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23127.071380615234,
+          "success": true
+        }
+      ],
+      "total_time": 44472.748041152954,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 201,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 20470.02911567688,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22878.186225891113,
+          "success": true
+        }
+      ],
+      "total_time": 45056.25629425049,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 202,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 20578.720808029175,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22839.668035507202,
+          "success": true
+        }
+      ],
+      "total_time": 45289.01386260986,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 203,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 21019.134998321533,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22885.477304458618,
+          "success": true
+        }
+      ],
+      "total_time": 44717.4596786499,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 204,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 20689.54038619995,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23068.919897079468,
+          "success": true
+        }
+      ],
+      "total_time": 44386.590242385864,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 205,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 20797.825574874878,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22931.411266326904,
+          "success": true
+        }
+      ],
+      "total_time": 44826.67016983032,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 206,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 20904.741048812866,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22890.316486358643,
+          "success": true
+        }
+      ],
+      "total_time": 45398.181676864624,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 207,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 21238.82555961609,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22775.24757385254,
+          "success": true
+        }
+      ],
+      "total_time": 45728.13677787781,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 208,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 21127.723932266235,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22859.185934066772,
+          "success": true
+        }
+      ],
+      "total_time": 44936.285972595215,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 209,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 21460.314750671387,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22666.569709777832,
+          "success": true
+        }
+      ],
+      "total_time": 45619.3151473999,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 210,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 21349.99918937683,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22742.008447647095,
+          "success": true
+        }
+      ],
+      "total_time": 46057.49320983887,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 211,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 21570.65773010254,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22781.702518463135,
+          "success": true
+        }
+      ],
+      "total_time": 45835.59846878052,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 212,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 21678.89094352722,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22983.474731445312,
+          "success": true
+        }
+      ],
+      "total_time": 45155.75909614563,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 213,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 21788.17653656006,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23001.452207565308,
+          "success": true
+        }
+      ],
+      "total_time": 45506.46710395813,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 214,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 21899.094820022583,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22838.704347610474,
+          "success": true
+        }
+      ],
+      "total_time": 46274.13082122803,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 215,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22010.354042053223,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 1,
+          "status_code": 200,
+          "response_time": 22757.089614868164,
+          "success": true
+        }
+      ],
+      "total_time": 46167.42968559265,
+      "tickets_booked": 1
+    },
+    {
+      "user_id": 216,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22023.048877716064,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22994.81248855591,
+          "success": true
+        }
+      ],
+      "total_time": 46715.12174606323,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 217,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22133.742094039917,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23193.72844696045,
+          "success": true
+        }
+      ],
+      "total_time": 47291.88370704651,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 218,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22245.36442756653,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22826.666831970215,
+          "success": true
+        }
+      ],
+      "total_time": 46384.15431976318,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 219,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22353.30104827881,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22973.440170288086,
+          "success": true
+        }
+      ],
+      "total_time": 46825.724601745605,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 220,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22460.286140441895,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23313.182830810547,
+          "success": true
+        }
+      ],
+      "total_time": 47735.76784133911,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 221,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22577.8067111969,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22697.73840904236,
+          "success": true
+        }
+      ],
+      "total_time": 45944.2458152771,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 222,
+      "success": false,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22688.25125694275,
+          "success": true
+        },
+        {
+          "action": "Unlock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23205.23762702942,
+          "success": true
+        }
+      ],
+      "total_time": 47626.784324645996,
+      "tickets_booked": 0
+    },
+    {
+      "user_id": 223,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22799.262285232544,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 22917.8729057312,
+          "success": true
+        }
+      ],
+      "total_time": 46604.31671142578,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 224,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22912.46724128723,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22936.878204345703,
+          "success": true
+        }
+      ],
+      "total_time": 46494.38691139221,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 225,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23023.44250679016,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23233.360290527344,
+          "success": true
+        }
+      ],
+      "total_time": 47518.37515830994,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 226,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23134.003162384033,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 22937.46066093445,
+          "success": true
+        }
+      ],
+      "total_time": 46934.49115753174,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 227,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23245.370149612427,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23110.520601272583,
+          "success": true
+        }
+      ],
+      "total_time": 47171.66495323181,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 228,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23354.55822944641,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 3,
+          "status_code": 200,
+          "response_time": 23278.22995185852,
+          "success": true
+        }
+      ],
+      "total_time": 47396.87180519104,
+      "tickets_booked": 3
+    },
+    {
+      "user_id": 229,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23467.57221221924,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23005.499124526978,
+          "success": true
+        }
+      ],
+      "total_time": 47049.51524734497,
+      "tickets_booked": 2
+    },
+    {
+      "user_id": 230,
+      "success": true,
+      "actions": [
+        {
+          "action": "Lock",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23574.90634918213,
+          "success": true
+        },
+        {
+          "action": "Deduct",
+          "quantity": 2,
+          "status_code": 200,
+          "response_time": 23165.00973701477,
+          "success": true
+        }
+      ],
+      "total_time": 47406.93235397339,
+      "tickets_booked": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1.2) translate(100, 0)">
+  <defs>
+    <linearGradient id="newbieGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#newbieGradient)"/>
+  
+  <!-- Desk -->
+  <rect x="180" y="200" width="180" height="70" rx="10" fill="#8B5CF6" opacity="0.8"/>
+  
+  <!-- Monitor -->
+  <rect x="200" y="120" width="140" height="80" rx="8" fill="#1F2937" stroke="#60A5FA" stroke-width="2"/>
+  <rect x="205" y="125" width="130" height="70" rx="4" fill="url(#screenGlow)"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="260" y="200" width="20" height="12" rx="2" fill="#374151"/>
+  <rect x="255" y="210" width="30" height="6" rx="3" fill="#374151"/>
+  
+  <!-- Gaming Chair -->
+  <ellipse cx="100" cy="220" rx="35" ry="20" fill="#7C3AED"/>
+  <rect x="80" y="200" width="40" height="40" rx="20" fill="#8B5CF6"/>
+  <rect x="70" y="185" width="60" height="25" rx="12" fill="#8B5CF6"/>
+  
+  <!-- Keyboard -->
+  <rect x="210" y="220" width="120" height="20" rx="3" fill="#374151"/>
+  <rect x="215" y="225" width="110" height="10" rx="2" fill="#1F2937"/>
+  
+  <!-- Mouse -->
+  <ellipse cx="350" cy="232" rx="10" ry="12" fill="#374151"/>
+  <ellipse cx="350" cy="230" rx="8" ry="10" fill="#1F2937"/>
+  
+  <!-- Gaming Elements -->
+  <circle cx="350" cy="60" r="6" fill="#60A5FA" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="80" r="4" fill="#60A5FA" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="40" r="3" fill="#60A5FA" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="50" y="40" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">新客电竞机位</text>
+  <text x="50" y="65" text-anchor="start" fill="#60A5FA" font-family="Arial, sans-serif" font-size="14">入门级配置 · 舒适体验</text>
+  
+  <!-- Specs -->
+  <text x="50" y="280" text-anchor="start" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">i5-8400 | GTX1060 | 16GB</text>
+  </g>
+</svg>

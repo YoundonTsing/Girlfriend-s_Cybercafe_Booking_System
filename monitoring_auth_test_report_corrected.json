@@ -1,0 +1,163 @@
+{
+  "test_time": "2025-09-13 00:37:14",
+  "test_account": {
+    "username": "admin",
+    "password_masked": "******"
+  },
+  "summary": {
+    "total_tests": 16,
+    "passed_tests": 8,
+    "failed_tests": 8
+  },
+  "auth_analysis": {
+    "token_obtained": false,
+    "token_preview": null
+  },
+  "detailed_results": [
+    {
+      "test_name": "无认证-健康检查端点",
+      "success": false,
+      "message": "HTTP 503",
+      "details": {
+        "status_code": 503,
+        "url": "http://localhost:8082/actuator/health"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-信息端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/actuator/info"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-指标端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/actuator/metrics"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-Prometheus端点",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/actuator/prometheus"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-库存水位监控API",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/api/stock/monitor/stats"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-成功率监控API",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/api/stock/monitor/success-rate"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-性能监控API",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/api/stock/monitor/performance"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-异常监控API",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/api/stock/monitor/errors"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-监控健康API",
+      "success": true,
+      "message": "访问成功",
+      "details": {
+        "status_code": 200,
+        "url": "http://localhost:8082/api/stock/monitor/health"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "无认证-手动检查API",
+      "success": false,
+      "message": "HTTP 405",
+      "details": {
+        "status_code": 405,
+        "url": "http://localhost:8082/api/stock/monitor/check"
+      },
+      "timestamp": "2025-09-13 00:37:13"
+    },
+    {
+      "test_name": "Basic认证测试",
+      "success": false,
+      "message": "HTTP 503",
+      "details": {
+        "status_code": 503,
+        "url": "http://localhost:8082/actuator/health"
+      },
+      "timestamp": "2025-09-13 00:37:14"
+    },
+    {
+      "test_name": "登录端点-/api/auth/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:37:14"
+    },
+    {
+      "test_name": "登录端点-/api/user/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:37:14"
+    },
+    {
+      "test_name": "登录端点-/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:37:14"
+    },
+    {
+      "test_name": "登录端点-/auth/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:37:14"
+    },
+    {
+      "test_name": "登录端点-/api/login",
+      "success": false,
+      "message": "端点不存在",
+      "details": null,
+      "timestamp": "2025-09-13 00:37:14"
+    }
+  ]
+}

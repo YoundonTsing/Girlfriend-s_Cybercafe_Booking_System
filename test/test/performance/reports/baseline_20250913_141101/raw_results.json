@@ -1,0 +1,4185 @@
+{
+  "user_operations": [
+    {
+      "operation": "user_register",
+      "response_time": 23.575305938720703,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.184056"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 26.166915893554688,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.188952"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 23.403167724609375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.187865"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 11.822700500488281,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.188952"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 15.88582992553711,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.186178"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 19.50693130493164,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.186178"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.387794494628906,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.176100"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.585826873779297,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.189994"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 32.186031341552734,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.191017"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.738985061645508,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.206604"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 27.573823928833008,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.220211"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 19.535541534423828,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.221323"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.340017318725586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.219174"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 30.067920684814453,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.225051"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 19.41657066345215,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.227103"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 42.352914810180664,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.230217"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 12.271881103515625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.232483"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 12.560367584228516,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.233884"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 38.86127471923828,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.237568"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.336057662963867,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.239659"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.872406005859375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.241924"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 13.819217681884766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.246640"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 19.54197883605957,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.247671"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.991065979003906,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.248730"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 11.187076568603516,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.250847"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 13.803720474243164,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.249775"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 62.54982948303223,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.252544"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 63.58933448791504,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.253583"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 12.712478637695312,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.254636"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 62.831878662109375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.256750"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 26.517629623413086,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.273157"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 28.159379959106445,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.276890"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 25.0089168548584,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.277553"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 24.950742721557617,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.278534"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 21.243810653686523,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.279603"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 30.861854553222656,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.280637"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.782283782958984,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.290976"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 55.05061149597168,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.293647"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.043092727661133,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.294680"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 12.964010238647461,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.294680"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 19.191503524780273,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.298795"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.150806427001953,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.299867"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 39.44706916809082,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.296752"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 40.47656059265137,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.297782"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 20.260334014892578,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.298795"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 46.8900203704834,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.307381"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 20.3244686126709,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.317077"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 23.092985153198242,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.321888"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 23.50473403930664,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.320257"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 30.333280563354492,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.321309"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 25.629758834838867,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.326029"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 22.544384002685547,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.322943"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.920255661010742,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.334997"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 11.829614639282227,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.337858"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 44.32058334350586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.340045"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.316579818725586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.341276"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 41.9764518737793,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.342376"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.38827133178711,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.341332"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 23.669004440307617,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.345556"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 18.475770950317383,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.345556"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 50.02140998840332,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.350421"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.54021644592285,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.355399"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 48.55084419250488,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.359110"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 21.428823471069336,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.356426"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 21.518468856811523,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.364919"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 9.972572326660156,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.368064"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 24.614572525024414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.365946"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 24.04499053955078,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.370761"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 31.526565551757812,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.378799"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 15.953302383422852,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.380873"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 15.501737594604492,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.383565"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 35.372257232666016,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.385793"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 33.80608558654785,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.376181"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 48.357248306274414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.388403"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.620159149169922,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.390509"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 21.407127380371094,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.389471"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 13.911247253417969,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.394784"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 45.46380043029785,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.405666"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.857074737548828,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.408366"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 30.614614486694336,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.409414"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 27.0388126373291,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.410604"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 17.98415184020996,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.410604"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.781951904296875,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.412716"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 55.13429641723633,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.415337"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.36924934387207,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.421157"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.823675155639648,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.424238"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 13.748884201049805,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.427009"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 42.27423667907715,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.428067"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 16.396284103393555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.429112"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 11.744022369384766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.433919"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 22.74465560913086,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.437053"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 25.38609504699707,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.437053"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 15.773534774780273,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.443841"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 54.37779426574707,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.440701"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 29.54554557800293,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.445902"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 21.62623405456543,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.446940"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 50.35662651062012,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.439827"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.697551727294922,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.446940"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 14.063835144042969,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.449005"
+    },
+    {
+      "operation": "user_register",
+      "response_time": 23.019790649414062,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.452132"
+    }
+  ],
+  "order_operations": [
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.281273"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.281273"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.281273"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.290199"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.281273"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.280267"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283348"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.283940"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.282301"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.289098"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.286000"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.288047"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.287009"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.281273"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.284977"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.291943"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 1.0437965393066406,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    },
+    {
+      "operation": "order_create",
+      "response_time": 0.0,
+      "status_code": 0,
+      "success": false,
+      "error": "local variable 'headers' referenced before assignment",
+      "timestamp": "2025-09-13T14:10:00.292986"
+    }
+  ],
+  "stock_operations": [
+    {
+      "operation": "stock_query",
+      "response_time": 24.239301681518555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.551799"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 10.680198669433594,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.483500"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 23.827791213989258,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.555058"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.05280876159668,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.589182"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 22.359609603881836,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.600783"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 14.801025390625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.472820"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 24.415254592895508,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.520683"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 27.197837829589844,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.602846"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 16.640663146972656,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.592288"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 40.103912353515625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.641917"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.873600006103516,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.601813"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.47637367248535,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.567707"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.15999221801758,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.633277"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 46.49996757507324,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.681861"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.14046287536621,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.643015"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 34.08074378967285,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.631197"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 49.99995231628418,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.640228"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 28.297901153564453,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.589182"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 35.38393974304199,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.648985"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 32.0277214050293,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.594996"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 22.464752197265625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.501087"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 26.45397186279297,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.555058"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 63.16637992858887,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.707249"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 20.066261291503906,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.549712"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.16036605834961,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.716024"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 25.310993194580078,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.661239"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.965951919555664,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.704071"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 29.639482498168945,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.558243"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 19.782304763793945,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.498404"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 28.33080291748047,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.647849"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 31.437397003173828,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.591261"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 43.10417175292969,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.714968"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 25.60281753540039,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.504225"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 30.452966690063477,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.596076"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 14.936208724975586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.497339"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 22.424697875976562,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.670274"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 38.733482360839844,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.645671"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 12.714862823486328,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.471798"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 55.451393127441406,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.665078"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 24.456262588500977,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.584279"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 22.262096405029297,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.550866"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 24.404048919677734,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.521743"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 18.279075622558594,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.588088"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 42.22369194030762,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.719834"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.816856384277344,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.604890"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.443607330322266,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.659131"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 24.596452713012695,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.629486"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 43.657541275024414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.631197"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 26.637792587280273,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.585425"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 27.152299880981445,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.673930"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 20.669937133789062,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.550866"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 41.03517532348633,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.687813"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 35.01439094543457,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.711038"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 11.760234832763672,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.498985"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 61.36798858642578,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.735298"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.942264556884766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.639153"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 32.82880783081055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.667156"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 45.589447021484375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.728511"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 45.983076095581055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.714179"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 27.935504913330078,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.660174"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 49.10635948181152,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.720970"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 42.32478141784668,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.663962"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.37263298034668,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.667156"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 24.31178092956543,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.662326"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 61.258792877197266,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.668196"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 16.627788543701172,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.495250"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 43.85709762573242,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.670274"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 12.784719467163086,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.505293"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 70.84941864013672,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.719834"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 13.762474060058594,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.475986"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 28.232574462890625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.618461"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 29.15024757385254,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.666121"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 47.287702560424805,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.651162"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 56.29992485046387,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.660174"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 28.711795806884766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.578424"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 40.086984634399414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.657489"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 49.17621612548828,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.732665"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 23.554086685180664,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.591261"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 25.342464447021484,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.552902"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 70.89948654174805,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.740131"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.76949501037598,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.738499"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 35.472869873046875,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.739544"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.6346549987793,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.738499"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 45.76587677001953,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.737424"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 54.84747886657715,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.746505"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 32.9134464263916,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.747093"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 79.98824119567871,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.749219"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.227962493896484,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.751294"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 54.82769012451172,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.749219"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 72.19648361206055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.768749"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.629438400268555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.772993"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 70.51873207092285,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.777768"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.283016204833984,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.753369"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 28.224945068359375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.781594"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.31424903869629,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.786516"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 90.99173545837402,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.780526"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 80.01542091369629,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.794195"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 112.76412010192871,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.792467"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 46.71454429626465,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.798053"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.48574638366699,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.810778"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 55.24635314941406,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.812858"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 77.5299072265625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.814953"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.82157516479492,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.813914"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.91728401184082,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.816529"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 77.44264602661133,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.817574"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.51937484741211,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.818612"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 35.20703315734863,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.821723"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.52080535888672,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.819651"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 85.40606498718262,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.820704"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 46.58174514770508,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.824350"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 19.44255828857422,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.825458"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.93069648742676,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.826525"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 37.19925880432129,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.831394"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 56.81800842285156,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.831394"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 53.5588264465332,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.830320"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 48.25735092163086,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.835808"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 109.24983024597168,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.845613"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 137.57061958312988,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.849637"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 88.28139305114746,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.839619"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 78.22585105895996,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.855994"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 112.01310157775879,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.861233"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.50246620178223,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.862281"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 149.15013313293457,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.862281"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 20.337343215942383,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.865950"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 53.57503890991211,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.872187"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 61.090946197509766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.876045"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.606178283691406,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.880856"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.04157257080078,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.877693"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.819698333740234,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.882586"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 48.91180992126465,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.883611"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 70.73235511779785,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.884646"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.07320785522461,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.885710"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 72.97492027282715,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.890548"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 122.31850624084473,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.882586"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.13516807556152,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.887858"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 35.34531593322754,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.876045"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 125.82778930664062,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.871172"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 133.3301067352295,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.898424"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 64.00656700134277,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.892686"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 41.918277740478516,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.901072"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 143.0366039276123,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.895329"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 107.90777206420898,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.908029"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 130.29003143310547,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.909113"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 43.01095008850098,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.905292"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.25556945800781,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.905292"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 77.68511772155762,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.910178"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 54.17513847351074,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.912280"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 86.28535270690918,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.917679"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 94.35009956359863,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.923600"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.576988220214844,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.920810"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 37.22333908081055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.921870"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 48.55203628540039,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.925668"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.74112319946289,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.931532"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.121742248535156,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.932551"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.718950271606445,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.938487"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 132.45272636413574,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.931532"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 115.68570137023926,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.946005"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 82.14640617370605,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.948097"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.63587760925293,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.951227"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 63.40813636779785,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.953956"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 86.84539794921875,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.950189"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.183223724365234,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.945471"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 55.869102478027344,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.963898"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 74.41020011901855,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.962839"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 60.70351600646973,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.962839"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 60.27650833129883,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.966626"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 79.23650741577148,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.967665"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.81978225708008,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.959678"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 52.84476280212402,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.952891"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.960737228393555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.971680"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 53.009986877441406,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.972750"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 81.27570152282715,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.976605"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 79.22649383544922,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.977651"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.0826416015625,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.980352"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 77.10766792297363,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.986221"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.47620964050293,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.988964"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 65.32788276672363,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.995816"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.2430477142334,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.986221"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 64.38446044921875,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.992127"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 54.692745208740234,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.993179"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 68.12357902526855,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.002725"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 76.08413696289062,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:09:59.990006"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 91.5226936340332,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.000636"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 89.59102630615234,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.011461"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.71956253051758,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.021510"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.32935523986816,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.022557"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 50.672292709350586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.019417"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 111.11211776733398,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.001660"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.73075866699219,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.028355"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.47849082946777,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.032071"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 85.00814437866211,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.025231"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.46261978149414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.040930"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 76.39861106872559,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.041991"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 74.99098777770996,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.046671"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 64.67485427856445,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.048778"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 74.20802116394043,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.044065"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 98.60110282897949,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.047746"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 83.76193046569824,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.052506"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 97.98240661621094,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.054585"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 52.924156188964844,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.054585"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.78417205810547,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.057266"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 94.84434127807617,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.058742"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 89.50924873352051,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.065059"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 68.12405586242676,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.066103"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.85282897949219,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.073689"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.08928680419922,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.072599"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 77.81696319580078,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.070996"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 82.11350440979004,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.082749"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 33.97107124328613,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.082749"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 82.69405364990234,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.078510"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 85.5553150177002,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.088281"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 57.492733001708984,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.080625"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 120.00012397766113,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.086626"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 116.12963676452637,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.075808"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 102.40650177001953,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.083809"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 68.37654113769531,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.091509"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 61.165571212768555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.096345"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 108.08420181274414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.112974"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 62.0579719543457,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.111885"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 63.17257881164551,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.115679"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 56.99276924133301,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.116733"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 85.8466625213623,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.123653"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.030128479003906,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.118873"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 62.7748966217041,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.125723"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 86.7922306060791,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.117804"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 57.43980407714844,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.126274"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 53.69138717651367,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.127380"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 94.27046775817871,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.128396"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 43.42484474182129,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.102167"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 89.60747718811035,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.136278"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 63.22813034057617,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.133152"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 87.51630783081055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.133152"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 94.36273574829102,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.139999"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 144.24538612365723,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.131538"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 62.62063980102539,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.147008"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.77201461791992,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.148053"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 54.9466609954834,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.143227"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 74.29742813110352,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.154922"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 86.56811714172363,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.143227"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 68.3445930480957,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.153868"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 76.39074325561523,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.155950"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 74.19419288635254,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.159718"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 40.143728256225586,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.169572"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 72.59535789489746,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.173696"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 89.12277221679688,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.179541"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.6268081665039,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.184224"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 91.21513366699219,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.181633"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 32.44662284851074,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.186315"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 47.370195388793945,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.187369"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.37607383728027,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.191528"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.95256996154785,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.188381"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 75.22702217102051,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.199921"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.43750381469727,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.200976"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 88.00125122070312,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.200976"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 105.80682754516602,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.197315"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 97.86462783813477,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.194210"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 64.76211547851562,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.203121"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 75.22702217102051,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.199921"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 65.80018997192383,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.202078"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 79.42652702331543,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.209926"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 68.38345527648926,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.198883"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 65.78683853149414,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.196286"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 29.43706512451172,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.215752"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 67.73114204406738,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.212642"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 60.87970733642578,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.212642"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 59.78822708129883,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.214711"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.8845386505127,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.222696"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 66.18642807006836,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.223741"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.96884346008301,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.229193"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 64.3460750579834,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.231294"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 78.4311294555664,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.234381"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 51.73230171203613,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.234381"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 76.34854316711426,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.237014"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 52.715301513671875,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.247954"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 100.94547271728516,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.247954"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 73.20642471313477,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.246903"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 114.29929733276367,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.245837"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 46.96488380432129,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.252675"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 69.5188045501709,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.253743"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 50.68659782409668,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.254817"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 50.942182540893555,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.256652"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 48.87795448303223,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.258803"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 56.47635459899902,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.254817"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 79.44941520690918,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.251092"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 49.892425537109375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.257750"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 32.34434127807617,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.259917"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.0983772277832,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.257750"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 45.2115535736084,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.260964"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 40.42673110961914,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.262042"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 71.53964042663574,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.262042"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 56.26273155212402,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.263081"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 50.49729347229004,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.264149"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 57.331085205078125,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.264149"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 62.81900405883789,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.267988"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 42.62661933898926,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.266368"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 47.43218421936035,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.267988"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 58.43043327331543,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.265249"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 44.88730430603027,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.271414"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 36.78274154663086,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.272247"
+    },
+    {
+      "operation": "stock_query",
+      "response_time": 39.886474609375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.274267"
+    }
+  ],
+  "concurrent_operations": [
+    {
+      "operation": "mixed_register",
+      "response_time": 8.948087692260742,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.304651"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 8.882284164428711,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.305713"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 7.862091064453125,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.308349"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 11.019229888916016,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.313575"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 8.910894393920898,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.314623"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 9.518861770629883,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.323139"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 12.662410736083984,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.327865"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 22.734403610229492,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.343714"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 34.2864990234375,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.345789"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 14.462709426879883,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.354468"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 6.850242614746094,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.370783"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 11.154651641845703,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.372945"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 6.918907165527344,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.372945"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 10.015487670898438,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.384085"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 11.140108108520508,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.385114"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 13.24772834777832,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.385114"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 11.040449142456055,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.387187"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 9.012699127197266,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.392060"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 16.515493392944336,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.402667"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 15.522003173828125,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:00.403757"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 1664.475917816162,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:02.066112"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 1099.323034286499,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:02.072890"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 1804.6512603759766,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:02.709632"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 2966.3875102996826,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:03.607266"
+    },
+    {
+      "operation": "mixed_register",
+      "response_time": 3060.368776321411,
+      "status_code": 404,
+      "success": false,
+      "timestamp": "2025-09-13T14:10:04.446555"
+    }
+  ]
+}
