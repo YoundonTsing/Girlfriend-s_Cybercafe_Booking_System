@@ -7,9 +7,17 @@
 [![Redis](https://img.shields.io/badge/Redis-7.0+-red.svg)](https://redis.io/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue.svg)](https://www.mysql.com/)
 
-> 🚀 **A comprehensive, enterprise-grade cybercafe booking system built with modern microservices architecture**
+>🖥️  **A comprehensive, enterprise-grade cybercafe booking system built with modern microservices architecture**
 
 一个为网吧/网咖量身定制的现代化预订管理系统，给女朋友家的网吧做点如虎添翼的举手之劳，提高在"未来老丈人"心中的形象采用微服务架构，支持高并发座位预订、实时库存管理和完整的支付流程。
+
+具体长啥样捏？
+
+##🎭 功能演示
+![功能演示](<img width="1893" height="1079" alt="wechat_2025-09-23_221200_838" src="https://github.com/user-attachments/assets/beb10e3f-c55a-41cc-b7f1-5c16e61fc7a1" />
+)
+
+
 
 ## 📋 目录
 
