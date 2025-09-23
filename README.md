@@ -9,7 +9,7 @@
 
 > 🚀 **A comprehensive, enterprise-grade cybercafe booking system built with modern microservices architecture**
 
-一个为网吧/网咖量身定制的现代化预订管理系统，采用微服务架构，支持高并发座位预订、实时库存管理和完整的支付流程。
+一个为网吧/网咖量身定制的现代化预订管理系统，给女朋友家的网吧做点如虎添翼的举手之劳，提高在"未来老丈人"心中的形象采用微服务架构，支持高并发座位预订、实时库存管理和完整的支付流程。
 
 ## 📋 目录
 
