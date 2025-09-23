@@ -13,9 +13,23 @@
 
 具体长啥样捏？
 
-##🎭 功能演示
-![功能演示](<img width="1893" height="1079" alt="wechat_2025-09-23_221200_838" src="https://github.com/user-attachments/assets/beb10e3f-c55a-41cc-b7f1-5c16e61fc7a1" />
-)
+## 🎭 功能演示
+
+
+<img width="1893" height="1079" alt="wechat_2025-09-23_221200_838" src="https://github.com/user-attachments/assets/a15e02c6-df53-4080-9ea1-be17c3a775cf" />
+
+
+
+<img width="1920" height="1010" alt="wechat_2025-09-23_221730_643" src="https://github.com/user-attachments/assets/33153034-10ef-4b91-8ce3-fad5664569e0" />
+
+
+
+<img width="1920" height="1010" alt="wechat_2025-09-23_221812_726" src="https://github.com/user-attachments/assets/0dffb565-d1e3-4833-a0e8-4d67b115b2cf" />
+
+
+
+<img width="1920" height="1010" alt="wechat_2025-09-23_221926_730" src="https://github.com/user-attachments/assets/c7ad48a0-9a50-4ce0-9b85-f912f6c6f675" />
+
 
 
 
@@ -35,7 +49,7 @@
 ## ✨ 项目特色
 
 ### 🎯 核心功能
-- **🪑 智能座位管理**: 实时座位状态同步，支持座位预订和释放
+- **📊 智能座位管理**: 实时座位状态同步，支持座位预订和释放
 - **📦 高并发库存控制**: Redis + Lua脚本实现原子化库存操作
 - **💳 完整支付流程**: 集成多种支付方式，支持订单状态追踪
 - **👥 用户权限管理**: 基于JWT的用户认证和权限控制
